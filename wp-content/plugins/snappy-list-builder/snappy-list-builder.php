@@ -17,6 +17,10 @@ Text Domain: snappy-list-builder
 //register all our custom shortcodes on init
 add_action('init', 'slb_register_shortcode');
 
+
+//register custom admin column header
+add_filter('manage_edit-slb_subscriber_columns', 'slb_subscriber_column_headers');
+
 /* Shortcodes */
 
 //requires all our custom shortcodes
