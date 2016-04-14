@@ -60,4 +60,17 @@ function slb_form_shortcode($args, $content=""){
 
 }
 
+/*   Filters  */
+
+function slb_subscriber_column_headers($columns){
+	$columns = array(
+		'cb' => '<input type="checkbox" />',
+		'title' => __('Subscriber Name'),
+		'email' => __('Email Address'),
+		);
+
+	//returning new column
+	return $columns;
+}
+
 ?>
