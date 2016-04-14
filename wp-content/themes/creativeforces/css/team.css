@@ -1,0 +1,159 @@
+
+
+	
+
+.line {
+    overflow: hidden;
+    text-align: center;
+}
+
+body{
+	font-size: 100%;
+}
+
+
+
+
+// hr{
+// 	margin-top: 0 !important;
+// }
+
+.exec-header{
+    margin-top: 15px;
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+    font-family: Roboto Condensed;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.content .ninecol {
+    padding-right: 4.6875%;
+    padding-left: 4.6875%;
+}
+
+.exec-header:before{
+    right: 100%;
+}
+
+.exec-header:before, .exec-header:after {
+    background: #333333;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    width: 96%;
+}
+
+
+
+.content-item.first {
+    padding-top: 0;
+    background: 0;
+    overflow:hidden;
+}
+
+.exec-header:after {
+    left: 100%;
+}
+
+.content .name+h5 {
+    margin-top: -17px;
+}
+
+content-item .description, .content-item .details {
+    overflow: hidden;
+}
+
+.content-item .description {
+    min-height: 0;
+}
+
+
+.content-item {
+    margin-left: -2.18978%;
+    margin-right: -2.18978%;
+    padding: 30px 2.18978%;
+}
+
+#maja, #ari{
+	margin-top: 10px;
+}
+
+.bio-pics {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    -moz-user-drag: -moz-none;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+
+
+.content-item figure {
+    float: left;
+    margin-right: 5.83942%;
+    margin-bottom: 0;
+    padding: 6px;
+    margin-left:10px;
+}
+
+
+.content-item .description, .content-item .details {
+    overflow: hidden;
+}
+
+.content-item .description {
+    min-height: 0;
+}
+
+h5.job-title{
+	  font-family: Roboto Condensed;
+	font-weight: bold;
+	   margin-top: -16px;
+}
+
+.content {
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.content-item.first {
+    padding-top: 0;
+    background: 0;
+}
+
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+figure img {
+    padding-bottom: 14px;
+    overflow:hidden;
+}
+
+
+h3.name {
+    margin-bottom: .75em;
+    line-height: 1.2em;
+     font-family: Roboto Condensed;
+    font-weight: bold;
+	display:inline-block;
+
+}
+.content .h2+h6 {
+    margin-top: -30px;
+}
+
+img.bio-pics{
+	    float: left;
+    margin-right: 5.83942%;
+}
+
+
+

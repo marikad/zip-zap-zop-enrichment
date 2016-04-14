@@ -1,0 +1,278 @@
+.form-container{
+	    max-width: 880px;
+    width: 100%;
+    margin: 25px auto;
+    background: #f4f4f4;
+}
+
+.donate-heading{
+    background: #7ED321;
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    font-weight: bold;
+}
+
+.content-inner{
+	    border: 1px solid #c6c6c6;
+    background: #fff;
+    padding: 30px 24px;
+}
+
+h1{
+	font-family: Arial Rounded MT Bold;
+	font-weight: bold;
+}
+.form-content{
+	    padding: 36px 31px 31px 32px;
+}
+
+fieldset{
+	    margin-bottom: 25px;
+}
+
+legend{
+	    font-family: 'Roboto Condensed';
+	    font-weight: bold;
+	    font-size: 25px !important;
+    color: #4d4641;
+    padding-bottom: 24px
+}
+
+.choose-pricing{
+	    margin: 5px 0 22px 0;
+}
+
+
+
+.choose-pricing .btn-group .btn.active{
+	    background: #c97e06 !important;
+    border-color: #c97e06;
+    outline: none;
+}
+
+#display-amount:before {
+  content: "$";
+}
+
+.btn-group .btn {
+    font-family: Arial Rounded MT Bold;
+    font-weight: bold;
+    margin-right: 15px;
+    transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    }
+
+    .btn{
+   -webkit-border-radius: 5px !important ;
+    border: 1px solid #cfcfcf !important ;
+    color: #000 !important ;
+    padding: 9px !important ;
+    font-size: 22px !important;
+    line-height: 1 !important ; 
+    cursor: pointer !important ;
+     }
+
+    .hover-color:hover{
+    	background-color:#c97e06 !important;
+    }
+
+    .full {
+    display: inline-block;
+    width: 100%;
+}
+
+#email{
+    width:100%;
+}
+
+#donate-btn{
+	background: #7ED321 !important;
+    font-weight: bold !important;
+    padding: 10px 15px !important;
+}
+
+#creditCardNumber {
+    width: 100%;
+    padding: 0px 7px;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    height: 42px;
+    line-height: 1;
+    color: #4d4641;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.date-wrapper {
+    clear: both;
+    display: inline-block;
+    padding: 33px 0;
+    position: relative;
+}
+
+select{
+height: 33px;
+    border: 1px solid #c6c6c6;
+    border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+        text-align: left !important;
+}
+
+#expMonth, #expYear{
+    width: 120px;
+}
+
+.cvn .full img {
+    margin: 0px 0 0 12px;
+    vertical-align: bottom;
+}
+
+.month, .cvn{
+    float: left;
+}
+
+.cvn input {
+    background: #f4f4f4 url(/wp-content/themes/creativeforces/images/cvv.png) 97% center no-repeat;
+    width: 190px;
+    padding: 5px 50px 5px 15px;
+    height: 44px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.tooltip{
+	display:inline-block;
+}
+
+.personal-detail {
+    display: inline-block;
+    width: 100%;
+}
+fieldset {
+    margin-bottom: 25px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.personal-detail .row {
+    margin-bottom: 17px !important;
+}
+.personal-detail input[type="text"], .cvn input {
+    line-height: 28px\0/;
+}
+
+legend, .pay-mode-heading {
+    font-family: 'latobold';
+    color: #4d4641;
+    padding-bottom: 24px;
+}
+
+.month span.full, .cvn .full, .select-payment-container .full{
+    padding-bottom: 16px;
+    line-height: 1;
+    }
+
+    .personal-detail input[type="text"], .personal-detail textarea, .cvn input {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #cfcfcf;
+    height: 42px;
+    padding: 5px 10px;
+    color: #4d4641;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'latolight';
+    font-weight: normal;
+}
+
+.personal-detail input[type="text"] {
+    width: 48.5%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.personal-detail textarea {
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    padding: 8px 10px;
+    font-family: 'latolight';
+}
+
+#add-note {
+    height: 84px;
+}
+
+.form-control{
+	display:inline !important;
+}
+
+
+
+.chzn-container {
+    font-size: 15px;
+    position: relative;
+    display: inline-block;
+    zoom: 1;
+    color: #4d4641;
+    font-family: 'latolight';
+}
+
+.credit-card-num{
+    position: relative;
+    margin-top: 16px;
+}
+
+    .btn-group input {
+    cursor: default;
+    width: 90px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #cfcfcf;
+    color: #4d4641;
+    padding: 9px;
+    font-size: 20px;
+    line-height: 1;
+    height:42px;
+}
+
+.btn-default{
+	background-color: #f4f4f4 !important;
+}
+.money-donate{
+	background: #f4f4f4;
+    border: 1px solid #cfcfcf;
+    color: #4d4641;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 70px;
+    line-height: 1;
+    padding: 30px 25px;
+    margin-top: 16px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #909;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #909;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #909;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #909;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
