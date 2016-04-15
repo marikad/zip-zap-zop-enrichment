@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/QAPage">
+<head>
+
+<title>Ask a Question - Stack Overflow</title>
+    <link rel="shortcut icon" href="//cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d">
+    <link rel="apple-touch-icon image_src" href="//cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a">
+    <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="stackoverflow.com"/>
+    <meta property="og:type" content="website" />    
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="http://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded&a" />
+    <meta name="twitter:title" property="og:title" itemprop="title name" content="Ask a Question" />
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Q&amp;A for professional and enthusiast programmers" />
+    <meta property="og:url" content="http://stackoverflow.com/questions/ask"/>
+
+    
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="//cdn.sstatic.net/Js/stub.en.js?v=b0b677ef394a"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.sstatic.net/Sites/stackoverflow/all.css?v=a8a089f4763a">
+
+    <script>
+        StackExchange.ready(
+            function () {
+                StackExchange.using("postValidation", function () {
+                    StackExchange.postValidation.initOnBlurAndSubmit($('#post-form'), 1, 'question');
+                });
+
+                var suggestionTarget = $("#question-suggestions");
+                StackExchange.question.initTitleSearch($('#title'), suggestionTarget, 'Stack Overflow', function ($links) {
+                    StackExchange.using('gps', function() {
+                        StackExchange.gps.track('question_ask.suggestions_show', { });
+                        $links.addClass('js-gps-track').data('gps-track', 'question_ask.suggestion_click');
+                        StackExchange.gps.bindTrackClicks(suggestionTarget);
+                    });
+                });
+
+                    
+                    var $answerCheckbox = $('#answer-from-ask');
+                    var editorInitialized = false;
+
+                    function showAnswerSection(quick, callback) {
+                        try
+                        {
+                            if (!editorInitialized) {
+                                //$("#question-answer-section").css("opacity", 0).removeClass("dno");
+                                $("#question-answer-section").removeClass("dno");
+                                // This line will throw an exception
+                                StackExchange.editor.finallyInit();
+                                editorInitialized = true;
+
+                                StackExchange.using("postValidation", function () {
+                                    StackExchange.postValidation.initOnBlur($("#question-answer-section"), 2, false);
+                                });
+                            }
+                            
+                            $('#question-answer-section, #answer-from-ask-form-item').fadeTo(quick ? 0 : 400, 1, callback);
+                        }
+                        catch (err)
+                        {
+                            // TODO: this never worked correctly. Long enough timeout that it will resolve eventually, yuck
+                            setTimeout(function () { showAnswerSection(quick, callback) }, 10);
+                        }
+                    }
+
+                    $answerCheckbox.change(function () {
+                        if ($(this).is(':checked')) {
+                            $('#question-only-section, #answer-from-ask-form-item').fadeOut(function () {
+                                showAnswerSection(false, function () {
+                                    $('#wmd-input-42').focus();
+                                });
+                            });
+                        }
+                        else {
+                            $('#question-answer-section, #answer-from-ask-form-item').fadeOut(function () {
+                                $('#question-only-section, #answer-from-ask-form-item').fadeIn();
+                            });
+                        }
+                    });
+
+                    if ($answerCheckbox.is(':checked') || 0 > 0) {
+                        $answerCheckbox.attr("checked", true);
+                        $('#question-only-section').hide();
+                        StackExchange.using("editor", function () {
+                            setTimeout(function () { showAnswerSection(true) }, 2);
+                        });
+                    }
+                    
+            }
+        );
+    </script>
+
+        <script>
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("question_ask.visit", { 'inbox_subscription': 1 });
+                var pending = [];
+                var send = StackExchange.helpers.DelayedReaction(function () {
+                    StackExchange.gps.sendPending();
+                }, 3000);
+                var alreadySent = { "title_focus": 1 };
+                $("#title,#wmd-input,#tagnames").on("focus blur", function (evt) {
+                    var what = { title: "title", "wmd-input": "body", "tagnames": "tags" }[this.id] + "_" + evt.type;
+                    if (alreadySent[what])
+                        return;
+                    StackExchange.gps.track("question.action", { action_type: what }, true);
+                    alreadySent[what] = 1;
+                    send.trigger();
+                });
+            });
+        </script>
+
+
+    <script>
+        StackExchange.ready(function () {
+            StackExchange.realtime.init('wss://qa.sockets.stackexchange.com,ws://qa.sockets.stackexchange.com');
+            StackExchange.realtime.subscribeToReputationNotifications('1');
+                StackExchange.realtime.subscribeToTopBarNotifications('1');
+        });
+    </script>
+    <script>
+        StackExchange.init({"locale":"en","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","serverTime":1460726371,"routeName":"Questions/Ask","styleCode":true,"enableUserHovercards":true,"snippets":{"enabled":true,"domain":"stacksnippets.net"},"site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"enableSocialMediaInSharePopup":true},"user":{"fkey":"d642f75f0fd9336a0255fa83ad0d1d38","rep":65,"isRegistered":true,"userType":3,"userId":5997573,"accountId":7944701,"gravatar":"<div class=\"gravatar-wrapper-32\"><img src=\"https://www.gravatar.com/avatar/ba232a3c30e85315cdce552d13aa8931?s=32&amp;d=identicon&amp;r=PG\" alt=\"\" width=\"32\" height=\"32\"></div>","profileUrl":"http://stackoverflow.com/users/5997573/avasssso","canSeeDeletedPosts":false},"realtime":{"newest":false,"active":false,"tagged":true}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"0cd710374273","js/moderator.en.js":"8ef3136120cc","js/full-anon.en.js":"022d972e1472","js/full.en.js":"98ce55a8b0ee","js/wmd.en.js":"cf9612e1b4e6","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"04ba8e00bd29","js/help.en.js":"dbd4f489eff2","js/tageditor.en.js":"9c6df10dabc4","js/tageditornew.en.js":"96f539f3dbb9","js/inline-tag-editing.en.js":"7889156f8595","js/revisions.en.js":"834877a0c912","js/review.en.js":"058f06f1a51d","js/tagsuggestions.en.js":"d1ff9b84abe5","js/post-validation.en.js":"6c8439daf24d","js/explore-qlist.en.js":"e71f14781288","js/events.en.js":"af94f906ef87","js/keyboard-shortcuts.en.js":"994691afee9b","js/external-editor.en.js":"6fb6f25dfe94","js/external-editor.en.js":"6fb6f25dfe94","js/snippet-javascript.en.js":"94b670caa778","js/snippet-javascript-codemirror.en.js":"33f8e4335405"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+</head>
+<body class="ask-page new-topbar">
+    <noscript><div id="noscript-padding"></div></noscript>
+    
+        <script>(function () { var old = $.fn.contents; $.fn.contents = function () { try { return old.apply(this, arguments); } catch (e) { return $([]); } } })()</script>
+        <iframe id="adzerk-user-match" width="0" height="0" frameborder="0" scrolling="no" onload="window.AUMIframeDone=true"
+                src="https://ssum-sec.casalemedia.com/usermatch?s=183712&amp;cb=https%3A%2F%2Fengine.adzerk.net%2Fudb%2F22%2Fsync%2Fi.gif%3FpartnerId%3D1%26userId%3D"
+                style="display: none;" marginheight="0" marginwidth="0"></iframe>
+
+
+
+
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+
+
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+    <div class="header">
+        <h3><a href="//stackoverflow.com">current community</a></h3>
+    </div>
+    <div class="modal-content current-site-container">
+        <ul class="current-site">
+                <li>
+                        <div class="related-links">
+                    <a href="http://chat.stackoverflow.com" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:6 })"
+>chat</a>
+                    <a href="/users/logout" class="js-gps-track"     data-gps-track="site_switcher.click({ item_type:8 })"
+>log out</a>
+    </div>
+
+
+
+
+    <a href="//stackoverflow.com"
+       class="current-site-link site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+        site_switcher.click({ item_type:3 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+    </a>
+
+                </li>
+                <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    
+
+
+
+    <a href="http://meta.stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="552"
+       data-gps-track="
+            site.switch({ target_site:552, item_type:3 }),
+        site_switcher.click({ item_type:4 })">
+        <div class="site-icon favicon favicon-stackoverflowmeta" title="Meta Stack Overflow"></div>
+        Meta Stack Overflow
+    </a>
+
+                </li>
+                            <li class="related-site">
+                        <div class="L-shaped-icon-container">
+        <span class="L-shaped-icon"></span>
+    </div>
+
+                    <a class="site-link js-gps-track"
+                       href="//careers.stackoverflow.com?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider"
+                            data-gps-track="site_switcher.click({ item_type:9 })"
+>
+                        <div class="site-icon favicon favicon-careers" title="Stack Overflow Careers"></div>
+                        Stack Overflow Careers
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div class="header" id="your-communities-header">
+        <h3>
+                <a href="//stackexchange.com/users/7944701/?tab=accounts">your communities</a>
+        </h3>
+            
+            <a href="#" id="edit-pinned-sites">edit</a>
+            <a href="#" id="cancel-pinned-sites" style="display: none;">cancel</a>
+    </div>
+    <div class="modal-content" id="your-communities-section">
+            
+            <ul class="my-sites">
+                    <li>
+                        
+
+
+
+    <a href="//stackoverflow.com"
+       class="site-link js-gps-track"
+       data-id="1"
+       data-gps-track="
+            site.switch({ target_site:1, item_type:3 }),
+        site_switcher.click({ item_type:1 })">
+        <div class="site-icon favicon favicon-stackoverflow" title="Stack Overflow"></div>
+        Stack Overflow
+            <span class="rep-score">65</span>
+    </a>
+
+                    </li>
+            </ul>
+                <div class="pinned-site-editor-container" style="display: none;">
+                    <input id="js-site-search-txt"
+                           type="text"
+                           class="site-filter-input"
+                           value=""
+                           placeholder="Add a Stack Exchange community"/>
+                    <input type="submit" id="pin-site-btn" value="Add" disabled="disabled"/>
+                    <ul class="js-found-sites found-sites"></ul>
+                    <ul class="pinned-site-list sortable" data-custom-list="False">
+                    </ul>
+                    <input type="submit" value="Save" id="save-pinned-sites-btn" disabled="disabled"/>
+                    <a href="#" id="reset-pinned-sites">reset to default list</a>
+                </div>
+    </div>
+    <div class="header">
+        <h3><a href="//stackexchange.com/sites">more stack exchange communities</a></h3>
+        <a href="http://blog.stackoverflow.com" class="fr">company blog</a>
+    </div>
+    <div class="modal-content">
+            <div class="child-content"></div>
+    </div>
+</div>
+        </div>
+
+        <div class="network-items">
+
+            <a href="//stackexchange.com"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 154 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+    <a href="#"
+       class="topbar-icon icon-inbox yes-hover js-inbox-button"
+       title="You have unread inbox messages">
+        <span class="hidden-text">Inbox</span>
+        <span class="unread-count" style="">1</span>
+    </a>
+    <a href="#"
+       class="topbar-icon icon-achievements yes-hover js-achievements-button icon-achievements-unread"
+       data-unread-class="icon-achievements-unread"
+       title="You have new reputation changes">
+        <span class="hidden-text">Reputation and Badges</span>
+        <span class="unread-count" style="">
+            +7
+        </span>
+    </a>
+        </div>
+
+        <div class="topbar-links">
+
+                <a href="/users/5997573/avasssso" 
+                   class="profile-me js-gps-track" 
+                   data-gps-track="profile_summary.click()">
+                    
+                    <div class="gravatar-wrapper-24" title="avasssso"><img src="https://www.gravatar.com/avatar/ba232a3c30e85315cdce552d13aa8931?s=48&amp;d=identicon&amp;r=PG" alt="" width="24" height="24" class="avatar-me js-avatar-me"></div>
+
+                    <div class="links-container topbar-flair">
+
+                        <span class="reputation" title="your reputation: 65">
+                            65
+                        </span>
+<span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>                    </div>
+                </a>
+                <div class="links-container">
+                    <span class="topbar-menu-links">
+
+
+
+
+    <a href="#" class="icon-help js-help-button" title="Help Center and other resources">
+        help
+        <span class="triangle"></span>
+    </a>
+    <div class="topbar-dialog help-dialog js-help-dialog dno">
+        <div class="modal-content">
+            <ul>
+                                    <li>
+                        <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })">
+                            Tour
+                            <span class="item-summary">
+                                Start here for a quick overview of the site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })">
+                        Help Center
+                        <span class="item-summary">
+                            Detailed answers to any questions you might have
+                        </span>
+                    </a>
+                </li>
+                    <li>
+                        <a href="//meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })">
+                            Meta
+                            <span class="item-summary">
+                                Discuss the workings and policies of this site
+                            </span>
+                        </a>
+                    </li>
+                <li>
+                    <a href="http://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })">
+                        About Us
+                        <span class="item-summary">
+                            Learn more about Stack Overflow the company
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://business.stackoverflow.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })">
+                        Business
+                        <span class="item-summary">
+                            Learn more about hiring developers or posting ads with us
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+                    </span>
+                </div>
+
+            <div class="search-container">
+                <form id="search" action="/search" method="get" autocomplete="off">
+                    <input name="q" type="text" placeholder="Search Q&amp;A" value="" tabindex="1" autocomplete="off" maxlength="240" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+    </script>
+
+    <div class="container">
+        <div id="header">
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="/" >
+                    Stack Overflow
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs">
+                    <ul>
+                        <li><a id="nav-questions" href="/questions">Questions</a></li>
+                            <li><a id="nav-jobs" href="/jobs">Jobs</a></li>
+                        <li><a id="nav-tags" href="/tags">Tags</a></li>
+                        <li><a id="nav-users" href="/users">Users</a></li>
+                        <li><a id="nav-badges" href="/help/badges">Badges</a></li>
+                                            </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li class="youarehere">
+                            <a id="nav-askquestion"  style="cursor:default">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        <div id="content" class="snippet-hidden">
+            
+
+
+
+<div id="mainbar" class="ask-mainbar">
+    
+    <form id="post-form" class="post-form" action="/questions/ask/submit" method="post">
+        <input type="hidden" name="qualityBanWarningShown" value="False"/>
+        <input type="hidden" name="priorAttemptCount" value="0"/> 
+        <input type="hidden" name="warntags" />
+        <div id="question-form">
+            <div style="position: relative;"> 
+                <div class="form-item ask-title">
+                    <table class="ask-title-table">
+                        <tr>
+                            <td class="ask-title-cell-key">
+                                <label for="title">Title</label>
+                            </td>
+                            <td class="ask-title-cell-value">
+                                <input id="title" name="title" type="text" maxlength="300" tabindex="100" placeholder="What&#39;s your programming question? Be specific." class="ask-title-field" data-min-length="15" data-max-length="150">                        
+                            </td>
+                        </tr>
+                    </table>
+                    <div id="question-suggestions">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            
+
+            <script>
+            StackExchange.ifUsing("editor", function () {
+                StackExchange.using("externalEditor", function () {
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.init();
+                    });
+                });
+            }, "code-snippets");
+        </script>
+    
+
+<script>
+    StackExchange.ready(function() {
+        StackExchange.using("tagEditor", function () { StackExchange.tagEditor.ready.done(initFadingHelpText); });
+        initTagRenderer("".split(" "), "".split(" "));
+       
+        StackExchange.using("externalEditor", function() {
+                // Have to fire editor after snippets, if snippets enabled
+                if (StackExchange.options.snippets.enabled) {
+                    StackExchange.using("snippets", function() {
+                        createEditor();
+                    });
+                }
+                else {
+                    createEditor();
+                }
+            });
+
+            function createEditor() {
+                prepareEditor({
+                    heartbeatType: 'ask',
+                convertImagesToLinks: false,
+                reputationToPostImages: null,
+                bindNavPrevention: true,
+                postfix: "",
+                    onDemand: false,
+                    discardSelector: ".discard-question"
+                    ,immediatelyShowMarkdownHelp:true
+                    });
+                
+
+        }
+    });  
+</script>
+
+
+<div id="post-editor" class="post-editor js-post-editor">
+
+    <div style="position: relative;">     
+        <div class="wmd-container">
+            <div id="wmd-button-bar" class="wmd-button-bar"></div>
+            <textarea id="wmd-input" class="wmd-input" name="post-text" cols="92" rows="15" tabindex="101" data-min-length=""></textarea>
+        </div>
+    </div>
+
+    <div class="fl" style="margin-top: 8px; height:24px;">&nbsp;</div>
+    <div id="draft-saved" class="draft-saved community-option fl" style="margin-top: 8px; height:24px; display:none;">draft saved</div>
+
+    <div id="draft-discarded" class="draft-discarded community-option fl" style="margin-top: 8px; height:24px; display:none;">draft discarded</div>
+
+
+
+    <div id="wmd-preview" class="wmd-preview"></div>
+    <div></div>
+    <div class="edit-block">
+        <input id="fkey" name="fkey" type="hidden" value="d642f75f0fd9336a0255fa83ad0d1d38">
+        <input id="author" name="author" type="text">
+    </div>
+
+
+
+</div>
+        
+            <div style="position: relative;"> 
+
+                <script>
+    StackExchange.using("tagEditor", function () {
+        initTagRenderer("".split(" "), "".split(" "));
+        StackExchange.tagEditor($("#tagnames"));
+    });
+</script>	
+
+<div style="position: relative;"> 
+<div class="form-item">
+    <label>Tags</label>
+
+    <input id="tagnames" name="tagnames" type="text" size="60" value="" tabindex="103" placeholder="at least one tag such as (angularjs objective-c django), max 5 tags">
+</div>
+</div>
+
+                    <div id="tag-suggestions"></div>
+                    <script>
+                        StackExchange.using("tagSuggestions", function () {
+                            StackExchange.tagSuggestions.init();
+                        });
+                    </script>
+
+                
+
+            </div>
+        
+            <div id="question-only-section">
+    <div class="form-item">
+        <div>
+            <input id="inbox-opt-int-103ee35e71594c9cbebf02968daafdfb" type="checkbox" />
+            <label for="inbox-opt-int-103ee35e71594c9cbebf02968daafdfb" style="display: inline">Send me new responses to my posts via email</label>
+            <a id="inbox-opt-int-103ee35e71594c9cbebf02968daafdfb-settings" href="#">(settings)</a>
+        </div>
+        <div id="inbox-opt-int-103ee35e71594c9cbebf02968daafdfb-container" style="display: none;">
+            Send me new responses to my posts via email
+            <select id="inbox-opt-int-103ee35e71594c9cbebf02968daafdfb-freq">
+                <option value="3">every 3 hours</option>
+                <option value="24">daily</option>
+                <option value="168">weekly</option>
+            </select>
+            
+            <div>
+                Send emails to
+                <input id="inbox-opt-int-103ee35e71594c9cbebf02968daafdfb-address" style="width: 300px;" value="avaziomedia@gmail.com" />
+            </div>
+        </div>
+    </div>
+    <script>
+        StackExchange.ready(function() {
+            var settingsShown = false;
+            var settingsContainer = $('#inbox-opt-int-103ee35e71594c9cbebf02968daafdfb-container');
+            var settingsAutoExpand = false;
+            var postForm = $('#post-form');
+            var updateHiddenField = function(name, value) {
+                var field = postForm.find('[name=' + name + ']');
+                if (value === null) {
+                    field.remove();
+                } else {
+                    if (field.length === 0) {
+                        field = $('<input>').attr({ type: 'hidden', name: name }).appendTo(postForm);
+                    }
+                    field.val(value);
+                }
+            };
+            
+            var getFormData = function() {
+                return {
+                    inboxEmailOptIn: $('#inbox-opt-int-103ee35e71594c9cbebf02968daafdfb').is(':checked'),
+                    inboxEmailAddress: $('#inbox-opt-int-103ee35e71594c9cbebf02968daafdfb-address').val(),
+                    inboxEmailFreq: $('#inbox-opt-int-103ee35e71594c9cbebf02968daafdfb-freq').val(),
+                };
+            };
+
+            var clearForm = function() {
+                for (var field in getFormData()) {
+                    updateHiddenField(field, null);
+                }
+            };
+
+            var updateForm = function() {
+                var data = getFormData();
+                for (var field in getFormData()) {
+                    updateHiddenField(field, data[field]);
+                }
+            };
+
+            var toggleSettings = function(show) {
+                if (show) {
+                    settingsContainer.slideDown('fast');
+                    if (!settingsShown) {
+                        StackExchange.using("gps", function() {
+                            StackExchange.gps.track('inbox_settings.show', { location: '2' });
+                        });
+                        settingsShown = true;
+                    }
+                } else {
+                    settingsContainer.slideUp('fast');
+                }
+            };
+            $('#inbox-opt-int-103ee35e71594c9cbebf02968daafdfb').change(function() {
+                var checked = $(this).is(':checked');
+                if (checked) {
+                    if (settingsAutoExpand) {
+                        toggleSettings(true);
+                    }
+                    updateForm();
+                } else {
+                    if (settingsAutoExpand) {
+                        toggleSettings(false);
+                    }
+                    clearForm();
+                }
+                $('#inbox-opt-int-103ee35e71594c9cbebf02968daafdfb-address, #inbox-opt-int-103ee35e71594c9cbebf02968daafdfb-freq').attr('disabled', !checked);
+            }).change();
+            $('#inbox-opt-int-103ee35e71594c9cbebf02968daafdfb-settings').click(function(evt) { 
+                toggleSettings(!settingsContainer.is(':visible'));
+                evt.preventDefault();
+                return false;
+            });
+            $('#inbox-opt-int-103ee35e71594c9cbebf02968daafdfb-address').keyup(updateForm);
+            $('#inbox-opt-int-103ee35e71594c9cbebf02968daafdfb-freq').val('24').change(updateForm);
+        });
+    </script>
+
+                <div class="form-submit cbt">
+                    <input id="submit-button" type="submit" value="Post Your Question" tabindex="120">
+                    <a href="#" class="discard-question dno">discard</a>
+                    
+                </div>
+            </div>
+        </div>
+
+            <div id="answer-from-ask-form-item" class="form-item">
+                <input type="checkbox" id="answer-from-ask" name="answer-from-ask" /> <label for="answer-from-ask" style="display: inline;">Answer your own question</label> &ndash; <a href="http://blog.stackoverflow.com/2011/07/its-ok-to-ask-and-answer-your-own-questions/">share your knowledge, Q&amp;A-style</a>
+            </div>
+            <script>$("#answer-from-ask-form-item").find("a").attr("target", "_blank");</script>
+            <div id="question-answer-section" class="dno">
+                <div id="inline-answer" style="margin-bottom: 20px;">
+                    
+
+            <script>
+            StackExchange.ifUsing("editor", function () {
+                StackExchange.using("externalEditor", function () {
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.init();
+                    });
+                });
+            }, "code-snippets");
+        </script>
+    
+
+<script>
+    StackExchange.ready(function() {
+        StackExchange.using("tagEditor", function () { StackExchange.tagEditor.ready.done(initFadingHelpText); });
+        initTagRenderer("".split(" "), "".split(" "));
+       
+        StackExchange.using("externalEditor", function() {
+                // Have to fire editor after snippets, if snippets enabled
+                if (StackExchange.options.snippets.enabled) {
+                    StackExchange.using("snippets", function() {
+                        createEditor();
+                    });
+                }
+                else {
+                    createEditor();
+                }
+            });
+
+            function createEditor() {
+                prepareEditor({
+                    heartbeatType: '',
+                convertImagesToLinks: false,
+                reputationToPostImages: null,
+                bindNavPrevention: true,
+                postfix: "-42",
+                    onDemand: false,
+                    discardSelector: ".discard-question"
+                    ,immediatelyShowMarkdownHelp:true,postId:42
+                    });
+                
+
+        }
+    });  
+</script>
+
+
+<div id="post-editor-42" class="post-editor js-post-editor">
+
+    <div style="position: relative;">     
+        <div class="wmd-container">
+            <div id="wmd-button-bar-42" class="wmd-button-bar"></div>
+            <textarea id="wmd-input-42" class="wmd-input" name="post-text-answer" cols="92" rows="15" tabindex="103" data-min-length=""></textarea>
+        </div>
+    </div>
+
+    <div class="fl" style="margin-top: 8px; height:24px;">&nbsp;</div>
+    <div id="draft-saved-42" class="draft-saved community-option fl" style="margin-top: 8px; height:24px; display:none;">draft saved</div>
+
+    <div id="draft-discarded-42" class="draft-discarded community-option fl" style="margin-top: 8px; height:24px; display:none;">draft discarded</div>
+
+    <div class="community-option">
+        <input id="communitymode-42" name="communitymode" type="checkbox" >
+        <label for="communitymode-42" title="Marking an answer community wiki encourages others to edit it by lowering the reputation barrier required to edit. However, you will not gain any upvote reputation from it. This cannot be undone.">community wiki</label>
+    </div>
+
+
+    <div id="wmd-preview-42" class="wmd-preview"></div>
+    <div></div>
+
+
+
+</div>
+                </div>
+
+    <div class="form-item">
+        <div>
+            <input id="inbox-opt-int-023d92606f644fa8b685265c2c05bc00" type="checkbox" />
+            <label for="inbox-opt-int-023d92606f644fa8b685265c2c05bc00" style="display: inline">Send me new responses to my posts via email</label>
+            <a id="inbox-opt-int-023d92606f644fa8b685265c2c05bc00-settings" href="#">(settings)</a>
+        </div>
+        <div id="inbox-opt-int-023d92606f644fa8b685265c2c05bc00-container" style="display: none;">
+            Send me new responses to my posts via email
+            <select id="inbox-opt-int-023d92606f644fa8b685265c2c05bc00-freq">
+                <option value="3">every 3 hours</option>
+                <option value="24">daily</option>
+                <option value="168">weekly</option>
+            </select>
+            
+            <div>
+                Send emails to
+                <input id="inbox-opt-int-023d92606f644fa8b685265c2c05bc00-address" style="width: 300px;" value="avaziomedia@gmail.com" />
+            </div>
+        </div>
+    </div>
+    <script>
+        StackExchange.ready(function() {
+            var settingsShown = false;
+            var settingsContainer = $('#inbox-opt-int-023d92606f644fa8b685265c2c05bc00-container');
+            var settingsAutoExpand = false;
+            var postForm = $('#post-form');
+            var updateHiddenField = function(name, value) {
+                var field = postForm.find('[name=' + name + ']');
+                if (value === null) {
+                    field.remove();
+                } else {
+                    if (field.length === 0) {
+                        field = $('<input>').attr({ type: 'hidden', name: name }).appendTo(postForm);
+                    }
+                    field.val(value);
+                }
+            };
+            
+            var getFormData = function() {
+                return {
+                    inboxEmailOptIn: $('#inbox-opt-int-023d92606f644fa8b685265c2c05bc00').is(':checked'),
+                    inboxEmailAddress: $('#inbox-opt-int-023d92606f644fa8b685265c2c05bc00-address').val(),
+                    inboxEmailFreq: $('#inbox-opt-int-023d92606f644fa8b685265c2c05bc00-freq').val(),
+                };
+            };
+
+            var clearForm = function() {
+                for (var field in getFormData()) {
+                    updateHiddenField(field, null);
+                }
+            };
+
+            var updateForm = function() {
+                var data = getFormData();
+                for (var field in getFormData()) {
+                    updateHiddenField(field, data[field]);
+                }
+            };
+
+            var toggleSettings = function(show) {
+                if (show) {
+                    settingsContainer.slideDown('fast');
+                    if (!settingsShown) {
+                        StackExchange.using("gps", function() {
+                            StackExchange.gps.track('inbox_settings.show', { location: '2' });
+                        });
+                        settingsShown = true;
+                    }
+                } else {
+                    settingsContainer.slideUp('fast');
+                }
+            };
+            $('#inbox-opt-int-023d92606f644fa8b685265c2c05bc00').change(function() {
+                var checked = $(this).is(':checked');
+                if (checked) {
+                    if (settingsAutoExpand) {
+                        toggleSettings(true);
+                    }
+                    updateForm();
+                } else {
+                    if (settingsAutoExpand) {
+                        toggleSettings(false);
+                    }
+                    clearForm();
+                }
+                $('#inbox-opt-int-023d92606f644fa8b685265c2c05bc00-address, #inbox-opt-int-023d92606f644fa8b685265c2c05bc00-freq').attr('disabled', !checked);
+            }).change();
+            $('#inbox-opt-int-023d92606f644fa8b685265c2c05bc00-settings').click(function(evt) { 
+                toggleSettings(!settingsContainer.is(':visible'));
+                evt.preventDefault();
+                return false;
+            });
+            $('#inbox-opt-int-023d92606f644fa8b685265c2c05bc00-address').keyup(updateForm);
+            $('#inbox-opt-int-023d92606f644fa8b685265c2c05bc00-freq').val('24').change(updateForm);
+        });
+    </script>
+
+                <div class="form-submit cbt">
+                    <input id="submit-button-42" type="submit" value="Post Your Question And Answer" tabindex="120">
+                    <a href="#" class="discard-question dno">discard</a>
+                </div>
+            </div>
+    </form>
+</div>
+<div id="sidebar" class="ask-sidebar">
+    <div id="scroller-anchor"></div>
+    <div id="scroller">
+        <div class="module newuser sidebar-help" id="how-to-title">
+            <h4>How to Ask</h4>
+            <p><b>Is your question about programming?</b></p><p>We prefer questions that can be <i>answered</i>, not just discussed.</p><p>Provide details. Share your research.</p><p>If your question is about this website, <b><a href="http://meta.stackoverflow.com">ask it on meta</a></b> instead.</p><p class="ar"><a href="/help">visit the help center &raquo;</a><br><a href="/help/how-to-ask">asking help &raquo;</a></p>
+        </div>
+        <div class="module newuser sidebar-help" id="how-to-format" style=&quot;display:none&quot;>
+    <h4>How to Format</h4>        
+    <p><span class="dingus">&#9658;</span> put returns between paragraphs</p>
+    <p><span class="dingus">&#9658;</span> for linebreak add 2 spaces at end</p>
+    <p><span class="dingus">&#9658;</span> <i>_italic_</i> or <b>**bold**</b></p>
+    <p><span class="dingus">&#9658;</span> indent code by 4 spaces</p>
+    <p><span class="dingus">&#9658;</span> backtick escapes <code>`like _so_`</code></p>
+    <p><span class="dingus">&#9658;</span> quote by placing &gt; at start of line</p>
+    <p><span class="dingus">&#9658;</span> to make links</p>
+    <p>&lt;http://foo.com&gt;<br>[foo](http://foo.com)<br>&lt;a href="http://foo.com"&gt;foo&lt;/a&gt;</p>
+    <p><span class="dingus">&#9658;</span> <a href='http://meta.stackexchange.com/questions/1777/what-html-tags-are-allowed' target='_blank'>basic HTML</a> also allowed</p>
+    <p class="ar">
+    <a href="/editing-help" target="_edithelp">formatting help &raquo;</a><br>
+    <a href="/questions/how-to-ask">asking help &raquo;</a>
+    </p>
+</div>
+        <div class="module newuser sidebar-help" id="how-to-tag" style="display:none">
+    <h4>How to Tag</h4>
+    <p>A tag is a keyword or label that categorizes your question with other, similar questions.</p>    
+    <p><span class="dingus">&#9658;</span> favor existing popular tags; avoid creating new tags</p>
+    <p><span class="dingus">&#9658;</span> use common abbreviations</p>
+    <p><span class="dingus">&#9658;</span> don&#39;t include synonyms</p>
+    <p><span class="dingus">&#9658;</span> combine multiple words into single-words with dashes</p>
+    <p><span class="dingus">&#9658;</span> maximum of 5 tags, 25 chars per tag</p>
+    <p><span class="dingus">&#9658;</span> tag characters: [a-z 0-9 + # - .]</p>
+    <p><span class="dingus">&#9658;</span> delimit tags by space, semicolon, or comma</p>
+    <p class="ar"><a href="/tags">popular tags &raquo;</a></p>
+</div>    
+    </div>
+    <script>
+        StackExchange.ready(function () { moveScroller(); });
+        StackExchange.using("editor", function () {
+                        
+            var lengthCheckInterval = setInterval(function () {
+                if ($("#wmd-input").val().length >= 220) {
+                    clearInterval(lengthCheckInterval);
+                    StackExchange.cardiologist.beatASAP();
+                }
+            }, 3000);
+        });
+        
+
+    </script>
+        
+</div>
+
+<br class="cbt">
+<div style="display:none" id="prettify-lang"></div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                    <a href="http://stackoverflow.com/company/about">about us</a>
+                        <a href="/tour">tour</a>
+                    <a href="/help">help</a>
+                    <a href="http://blog.stackoverflow.com?blb=1">blog</a>
+                        <a href="http://chat.stackoverflow.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackoverflow.com/company/work-here">work here</a>
+                    <a href="http://stackexchange.com/mediakit">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on")'>mobile</a>
+                    <b><a href="/contact">contact us</a></b>
+                        <b><a href="http://meta.stackoverflow.com">feedback</a></b>
+                    
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="//stackoverflow.com" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="//serverfault.com" title="system and network administrators">Server Fault</a></li>
+                        <li><a href="//superuser.com" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="//webapps.stackexchange.com" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="//askubuntu.com" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="//webmasters.stackexchange.com" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="//gamedev.stackexchange.com" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="//tex.stackexchange.com" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="//programmers.stackexchange.com" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="//unix.stackexchange.com" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                        <li><a href="//apple.stackexchange.com" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="//wordpress.stackexchange.com" title="WordPress developers and administrators">WordPress Development</a></li>
+                        <li><a href="//gis.stackexchange.com" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="//electronics.stackexchange.com" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="//android.stackexchange.com" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="//security.stackexchange.com" title="information security professionals">Information Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="//dba.stackexchange.com" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="//drupal.stackexchange.com" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="//sharepoint.stackexchange.com" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="//ux.stackexchange.com" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="//mathematica.stackexchange.com" title="users of Mathematica">Mathematica</a></li>
+                        <li><a href="//salesforce.stackexchange.com" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                        <li><a href="//expressionengine.stackexchange.com" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//photo.stackexchange.com" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="//scifi.stackexchange.com" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="//graphicdesign.stackexchange.com" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                        <li><a href="//movies.stackexchange.com" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                        <li><a href="//cooking.stackexchange.com" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="//diy.stackexchange.com" title="contractors and serious DIYers">Home Improvement</a></li>
+                        <li><a href="//money.stackexchange.com" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                        <li><a href="//academia.stackexchange.com" title="academics and those enrolled in higher education">Academia</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (9)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//english.stackexchange.com" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="//skeptics.stackexchange.com" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="//judaism.stackexchange.com" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="//travel.stackexchange.com" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="//christianity.stackexchange.com" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="//gaming.stackexchange.com" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="//bicycles.stackexchange.com" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="//rpg.stackexchange.com" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//math.stackexchange.com" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="//stats.stackexchange.com" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                        <li><a href="//cstheory.stackexchange.com" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="//physics.stackexchange.com" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="//mathoverflow.net" title="professional mathematicians">MathOverflow</a></li>
+                        <li><a href="//chemistry.stackexchange.com" title="scientists, academics, teachers and students">Chemistry</a></li>
+                        <li><a href="//biology.stackexchange.com" title="biology researchers, academics, and students">Biology</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (5)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="//stackapps.com" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="//meta.stackexchange.com" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                        <li><a href="//area51.stackexchange.com" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="//careers.stackoverflow.com">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+            <div id="copyright">
+                site design / logo &#169; 2016 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="svnrev">
+                rev 2016.4.15.3468
+            </div>
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+        <script> setTimeout(function() { $("#adzerk-user-match").remove(); }, 2000);</script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-5620270-1', {'userId': '7944701' });
+                ga('set', 'dimension1', '7944701');                 ga('send', 'pageview');
+        var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+        (function () {
+            var ssl='https:'==document.location.protocol,
+                s=document.getElementsByTagName('script')[0],
+                qc=document.createElement('script');
+            qc.async=true;
+            qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+            s.parentNode.insertBefore(qc, s);
+            var sc=document.createElement('script');
+            sc.async=true;
+            sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js';
+            s.parentNode.insertBefore(sc, s);
+        })();
+        _comscore.push({ c1: "2", c2: "17440561" });
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+        
+    
+    </body>
+</html>

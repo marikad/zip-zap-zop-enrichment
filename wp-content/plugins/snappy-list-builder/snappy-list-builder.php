@@ -85,12 +85,19 @@ function slb_subscriber_column_data($column, $post_id){
 	switch ($column) {
 		case 'title':
 			$fname = get_field('slb_fname', $post_id);
+			$lname = get_field('slb_lname', $post_id);
+			$output .= $fname .' '. $lname; 
 			break;
+			case 'email';
+			//get the custom email data
 		
 		default:
-			# code...
+			$email = get_field('slb_email', $post_id);
+			$output .= $email;
 			break;
 	}
+
+	echo $output;
 }
 
 ?>
