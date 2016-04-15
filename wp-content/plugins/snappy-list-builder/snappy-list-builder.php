@@ -77,4 +77,20 @@ function slb_subscriber_column_headers($columns){
 	return $columns;
 }
 
+function slb_subscriber_column_data($column, $post_id){
+
+	//setup our return text
+	$output = '';
+
+	switch ($column) {
+		case 'title':
+			$fname = get_field('slb_fname', $post_id);
+			break;
+		
+		default:
+			# code...
+			break;
+	}
+}
+
 ?>
