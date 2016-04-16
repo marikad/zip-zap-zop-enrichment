@@ -15,7 +15,7 @@ Text Domain: snappy-list-builder
 /* Hooks */
 
 //register all our custom shortcodes on init
-add_action('init', 'slb_register_shortcode');
+add_action('init', 'slb_register_shortcodes');
 
 
 //register custom admin column header
@@ -34,7 +34,7 @@ add_filter('manage_slb_list_posts_custom_column', 'slb_list_column_data', 1,2);
 /* Shortcodes */
 
 //requires all our custom shortcodes
-function slb_register_shortcode(){
+function slb_register_shortcodes(){
 	//sl;b form is the name of our shortcode 
 	//slb_form_shortcode is the funtion we want to run when our shortcode is called
 add_shortcode('slb_form', 'slb_form_shortcode');
@@ -47,14 +47,12 @@ function slb_form_shortcode($args, $content=""){
 	$output = '
 	<div class="slb">
 		<form id="slb_form" name="slb_form" class="slb-form" method="post">
-			<p class="slb-input-]]container">
-				<label>First Name</label><br />
-				<input type="text" name="slb_fname" placeholder="First Name">
+			<p class="slb-input-container">
+				<label>Your Name</label><br />
+				<input type="text" name="slb_fname" placeholder="First Name" />
+				<input type="text" name="slb_lname" placeholder="Last Name" />
 			</p>
-			<p class="slb-input-]]container">
-				<label>Last Name</label><br />
-				<input type="text" name="slb_lname" placeholder="First Name">
-			</p>
+			
 			<p class="slb-input-container">
 				<label>Your Email;</label><br />
 				<input type="email" name="slb_email" placeholder="First Name">
@@ -104,8 +102,6 @@ function slb_subscriber_column_data($column, $post_id){
 			break;
 			case 'email';
 			//get the custom email data
-		
-		default:
 			$email = get_field('slb_email', $post_id);
 			$output .= $email;
 			break;
