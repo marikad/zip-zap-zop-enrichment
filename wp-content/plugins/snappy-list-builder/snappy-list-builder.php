@@ -20,6 +20,16 @@ add_action('init', 'slb_register_shortcode');
 
 //register custom admin column header
 add_filter('manage_edit-slb_subscriber_columns', 'slb_subscriber_column_headers');
+add_filter('manage_edit-slb_list_columns', 'slb_list_column_headers');
+
+//register custom admin column data
+add_filter('manage_slb_subscriber_posts_custom_column', 'slb_subscriber_column_data', 1,2);
+add_action(
+	'admin_head_edit.php',
+	'slb_register_custom_admin_titles'
+);
+
+add_filter('manage_slb_list_posts_custom_column', 'slb_list_column_data', 1,2);
 
 /* Shortcodes */
 
@@ -38,8 +48,12 @@ function slb_form_shortcode($args, $content=""){
 	<div class="slb">
 		<form id="slb_form" name="slb_form" class="slb-form" method="post">
 			<p class="slb-input-]]container">
-				<label>Your Name</label><br />
+				<label>First Name</label><br />
 				<input type="text" name="slb_fname" placeholder="First Name">
+			</p>
+			<p class="slb-input-]]container">
+				<label>Last Name</label><br />
+				<input type="text" name="slb_lname" placeholder="First Name">
 			</p>
 			<p class="slb-input-container">
 				<label>Your Email;</label><br />
@@ -95,6 +109,64 @@ function slb_subscriber_column_data($column, $post_id){
 			$email = get_field('slb_email', $post_id);
 			$output .= $email;
 			break;
+	}
+
+	echo $output;
+}
+
+function slb_register_custom_admin_titles(){
+	add_filter(
+		'the_title',
+		'slb_custom_admin_titles',
+		99,
+		2
+	);
+}
+//handles custom admin title custom data for post-types without
+function slb_custom_admin_titles($title, $post_id){
+	global $post;
+
+	$output = $title;
+
+	if (isset($post->post_type) ): 
+		switch ($post->post_type) {
+			case 'slb_subscriber':
+				$fname = get_field('slb_fname', $post_id);
+				$lname = get_field('slb_lname', $post_id);
+				$output = $fname . ' ' . $lname;
+				break;
+		
+		}
+		endif;
+
+		return $output;
+	
+}
+
+function slb_list_column_headers($columns){
+	$columns = array(
+		'cb' => '<input type="checkbox" />',
+		'title' => __('Subscriber Name'),
+		'email' => __('Email Address'),
+		);
+
+	//returning new column
+	return $columns;
+}
+
+function slb_list_column_data($column, $post_id){
+
+	//setup our return text
+	$output = '';
+
+	switch ($column) {
+		case 'example':
+			// $fname = get_field('slb_fname', $post_id);
+			// $lname = get_field('slb_lname', $post_id);
+			// $output .= $fname .' '. $lname; 
+			break;
+	
+
 	}
 
 	echo $output;

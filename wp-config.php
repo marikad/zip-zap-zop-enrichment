@@ -96,3 +96,6 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+define('WP_HOME','http://www.zipzapzopenrichment.com'); 
+define('WP_SITEURL','http://www.zipzapzopenrichment.com');
