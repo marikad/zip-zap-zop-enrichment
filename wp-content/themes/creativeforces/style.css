@@ -31,19 +31,19 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 font-weight: bold;
 }
 
-#menu-item-10,
-#menu-item-16,
+#menu-item-18,
 #menu-item-19,
+#menu-item-26,
 #menu-item-34,
+#menu-item-27,
 #menu-item-22,
-#menu-item-25,
-#menu-item-28{
+#menu-item-21{
     padding:20px;
     font-size: 15px;
 } 
 
 
-.menu-item-123{
+#menu-item-20{
     background-color: #7ED321;
     border-radius: 8px;
    padding: 15px;
