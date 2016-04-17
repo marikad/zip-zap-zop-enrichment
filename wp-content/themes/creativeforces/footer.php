@@ -34,7 +34,7 @@
             <a href=""><img src="/wp-content/themes/creativeforces/images/twitter.png" alt="" class="spacing"></a>
             <a href=""><img src="/wp-content/themes/creativeforces/images/pinterest.png" alt="" class="spacing"></a>
 
-	<div class="text-center copy">&copy; Creative Forces Enrichment <?php echo date("Y") ?></div>
+	<div class="text-center copy">&copy; Zip Zap Zop Enrichment <?php echo date("Y") ?></div>
 		 
  </div>
    </div>
