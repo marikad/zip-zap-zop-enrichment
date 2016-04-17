@@ -11,7 +11,7 @@
  ?>
 <head>
 	<meta charset="utf-8">
-	<title>Creative Forces | Our Team</title>
+	<title>Zip Zap Zop Enrichment | Our Team</title>
 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/creativeforces/css/team.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 </head>

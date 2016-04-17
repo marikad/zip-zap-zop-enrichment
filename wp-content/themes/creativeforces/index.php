@@ -14,7 +14,7 @@
         <div id="container">
  
         <div id="content">
-            <?php if (!is_page(array('Home','Our Programs','blah3'))) { ?>
+            <?php if (!is_page(array('Home','Our Programs','media'))) { ?>
            <h4><?php the_title(); ?></h4>       
             <?php } ?>
             <?php while ( have_posts() ) : the_post() ?>
