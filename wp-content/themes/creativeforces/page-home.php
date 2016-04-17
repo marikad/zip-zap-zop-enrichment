@@ -71,7 +71,7 @@ crucial part of a childs development</p>
 <div class="space">
 <p class="mission col-md-6"><strong>Creative Forces Enrichment (CFE)</strong> provides creative expression and communication education programs for under-served students populations in California public schools focusing on Los Angeles County and Contra Costa County. CFE’s goal is to empower students to effectively communicate with an ever-diversified world by providing innovative, verbal and nonverbal, individualized curriculum.
 <button class="btn btn-primary" type="">Learn More</button></p>
-<iframe src="https://www.youtube.com/embed/1s02I78mCxg" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YzGoBK7X208" frameborder="0" allowfullscreen></iframe>
 
 </div>
 </div>
