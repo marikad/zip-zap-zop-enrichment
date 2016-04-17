@@ -32,7 +32,7 @@
    <h1>Contact Us!</h1>
 </div>
 <div class="form-content">
-<?php echo do_shortcode( '[contact-form-7 id="143" title="contact-form"]'); ?>
+<?php echo do_shortcode( '[contact-form-7 id="4" title="Contact form 1"]'); ?>
 </div>
 </div>
 

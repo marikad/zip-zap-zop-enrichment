@@ -9,7 +9,7 @@
  ?>
 <head>
 	<meta charset="utf-8">
-	<title>Creative Forces | Home</title>
+	<title>Zip Zap Zop Enrichment  | Home</title>
 	<link rel="stylesheet" type="text/css" href="/wp-content/themes/creativeforces/css/home.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 </head>
