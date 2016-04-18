@@ -79,20 +79,23 @@ crucial part of a childs development</p>
 
 
 <div class="container">
-<p class="text-center program-head">Programs</p>
-	<div class="col-md-6 program-item text-center">
+<p class="text-center program-head">What is Improv?</p>
+<!-- 	<div class="col-md-6 program-item text-center">
 		<img id="image1" class="resize-image img-resonsive col-xs-12" src="/wp-content/themes/creativeforces/images/april2.jpg" alt="" />
 		<p class="program-text">Creative Writing</p>
 		<p class="program-info">this innovative writing program focuses on free thinking and connecting with others thru the written word</p>
 		<button class="btn btn-primary">Learn More</button>
-	</div>
+	</div> -->
+	<div class="row">
 		<div class="col-md-6 program-item text-center">
-		<img id="image1" class="resize-image img-resonsive col-xs-12" src="/wp-content/themes/creativeforces/images/kidsimprov.jpg" alt="" />
-		<p class="program-text">Improv &amp; Comedy</p>
-		<p class="program-info">This improv class is a fun and non-stressful way to encourage children and young adults to communicate and build confidence! Students will learn how to think on their feet when expanding on an idea, story, or debate. These classes are inspired by <a href="http://www.zipzapzopimprov.com/">Zip Zap Zop</a></p>
-		<button class="btn btn-primary">Learn More</button>
+		<img id="image1" class="resize-image" src="/wp-content/themes/creativeforces/images/kidsimprov.jpg" alt="" />
+	</div>
+		<div class="col-md-6">
+		<p class="program-info">Improv is an incredibly powerful tool in that it can seamlessly incorporate non-verbal students and allow students to enhance their sense of community. One way to define improv as an educational tool is that improv allows you to create new ideas and concepts spur of the moment. These thoughts can be written out, verbally communicated, and non-verbally communicated in many ways.  Improv is a term to represent games and activities that aid in socialization including creative writing, performance type games, and team building exercises. <a href="http://www.zipzapzopimprov.com/">Zip Zap Zop</a></p>
+		</div>
 	</div>
 </div> 
+</div>
 
 </section>
 <h3 class="text-center">We have partnered with Zip Zap Zop: Improv for Kids! Click <a href=" http://www.zipzapzopimprov.com/" target="_blank" class="click-here">here</a> to learn more</h3>
