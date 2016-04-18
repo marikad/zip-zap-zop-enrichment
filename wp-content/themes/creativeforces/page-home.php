@@ -32,9 +32,8 @@
 <div class="item active"><img class="img-responsive" style="width: 100%;" src="/wp-content/themes/creativeforces/images/preschool.jpg" alt="" />
 <div class="carousel-caption">
 <div class="inner-caption">
-<h3 class="carousel-head">Advocates For Play</h3>
-<p class="carousel-body">Studies show that play is a
-crucial part of a childs development</p>
+<h3 class="carousel-head">What is Improv?</h3>
+<p class="carousel-body">Improv can open the mind to learning in the classroom and beyond!</p>
 <button class="btn btn-primary btn-shadow" type="">Learn More</button>
 
 </div>
