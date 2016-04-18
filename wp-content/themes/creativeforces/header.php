@@ -55,6 +55,5 @@
 
     <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu-header', 'container' => 'nav', 'theme_location' => 'header-menu',  'walker' => new wp_bootstrap_navwalker()) ); ?>
 
-<form action="" method="POST">   <script     src="https://checkout.stripe.com/checkout.js"   data-key="pk_test_tFQnVGUzEnUilzYbU0QQipUs"     data-amount="2000"     data-name="Demo Site"     data-description="2 widgets ($20.00)"     data-image="/128x128.png"     data-locale="auto">   </script> </form>
 
 </div>
