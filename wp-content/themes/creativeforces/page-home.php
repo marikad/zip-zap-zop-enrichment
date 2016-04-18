@@ -91,7 +91,7 @@ crucial part of a childs development</p>
 		<img id="image1" class="resize-image" src="/wp-content/themes/creativeforces/images/kidsimprov.jpg" alt="" />
 	</div>
 		<div class="col-md-6">
-		<p class="program-info">Improv is an incredibly powerful tool in that it can seamlessly incorporate non-verbal students and allow students to enhance their sense of community. One way to define improv as an educational tool is that improv allows you to create new ideas and concepts spur of the moment. These thoughts can be written out, verbally communicated, and non-verbally communicated in many ways.  Improv is a term to represent games and activities that aid in socialization including creative writing, performance type games, and team building exercises. <a href="http://www.zipzapzopimprov.com/">Zip Zap Zop</a></p>
+		<p class="program-info">Improv is an incredibly powerful tool in that it can seamlessly incorporate non-verbal students and allow students to enhance their sense of community. One way to define improv as an educational tool is that improv allows you to create new ideas and concepts spur of the moment. These thoughts can be written out, verbally communicated, and non-verbally communicated in many ways.  Improv is a term to represent games and activities that aid in socialization including creative writing, performance type games, and team building exercises. <!-- <a href="http://www.zipzapzopimprov.com/" target="_blank">Zip Zap Zop</a> --></p>
 		</div>
 	</div>
 </div> 
