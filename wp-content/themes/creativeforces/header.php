@@ -55,5 +55,4 @@
 
     <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container_class' => 'menu-header', 'container' => 'nav', 'theme_location' => 'header-menu',  'walker' => new wp_bootstrap_navwalker()) ); ?>
 
-
 </div>
