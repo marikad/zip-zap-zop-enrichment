@@ -4,5 +4,9 @@ h3.text-style{
 }
 
 p{
-	line-height: 1.6em;
+	line-height: 1.8em;
+}
+
+img{
+	    padding: 35px 0 0 35px;
 }
