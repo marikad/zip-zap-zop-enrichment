@@ -158,14 +158,15 @@ h3.text-center {
 }
 
 .program-info{
-  font-size: 19px;
-  line-height: 1.7em;
+  font-size: 18px;
+  line-height: 1.8em;
   padding:30px 0 0 30px;
 }
 
 .col-md-6 p{
   padding: 0 !important;
-  margin-top: 5px;
+  margin-top: 7px;
+  padding-right: 10px;
 }
 
 

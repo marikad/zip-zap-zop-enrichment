@@ -68,10 +68,16 @@ crucial part of a childs development</p>
 </div>
 <div class="row">
 <div class="space">
-<p class="mission col-md-6"><strong>Zip Zap Zop Enrichment</strong> provides improv and creative writing classes to students in California. Our mission is to empower students with and without special needs by creating inclusive learning opportunities to develop verbal and nonverbal communication skills.
-</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YzGoBK7X208" frameborder="0" allowfullscreen></iframe>
+<p class="mission col-md-6"><strong>Mission Statement:</strong> Our mission is to empower students with and without special needs by creating inclusive learning opportunities.<br><br>
+<strong>Vision:</strong> Zip Zap Zop Enrichment provides creative writing and improvisation classes to students in California. 
 
+Zip Zap Zop Enrichment aims to develop verbal and nonverbal communication skills through theater improv and creative writing 
+
+Zip Zap Zop Enrichment wishes to unlock the creative potential of students of all abilities and exceptionalities
+
+</p>
+
+<iframe width="560" class="col-md-6" height="315" src="https://www.youtube.com/embed/YzGoBK7X208" frameborder="0" allowfullscreen></iframe>
 </div>
 </div>
 </div>
