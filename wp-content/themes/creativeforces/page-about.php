@@ -26,7 +26,7 @@
 
    <?php get_header(); ?>
 
-<div class="container">
+<!-- <div class="container">
    <h3 class="text-center text-style">Who Is Zip Zap Zop Enrichment</h3>
    <hr>
    <div class="row">
@@ -39,7 +39,7 @@
   <img src="/wp-content/themes/creativeforces/images/maja3.png" alt="">
   </div>
   </div>
-  </div>
+  </div> -->
 
 
 
