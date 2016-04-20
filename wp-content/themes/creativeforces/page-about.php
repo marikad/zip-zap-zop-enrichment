@@ -16,6 +16,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 </head>
 
+   <?php get_header(); ?>
 
 <header>
     	<?php while ( have_posts() ) : the_post() ?>
@@ -23,10 +24,8 @@
 		<?php endwhile; ?>
 		 <?php get_sidebar(); ?>
 </header>
-
-   <?php get_header(); ?>
-
-<!-- <div class="container">
+<!-- 
+<div class="container">
    <h3 class="text-center text-style">Who Is Zip Zap Zop Enrichment</h3>
    <hr>
    <div class="row">
@@ -39,8 +38,8 @@
   <img src="/wp-content/themes/creativeforces/images/maja3.png" alt="">
   </div>
   </div>
-  </div> -->
+  </div>
+ -->
 
 
-
-   <?php get_footer(); ?>
+ <?php get_footer(); ?> 
