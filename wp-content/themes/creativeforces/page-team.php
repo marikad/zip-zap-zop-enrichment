@@ -26,7 +26,7 @@
 			<?php the_content(); ?>
 		<?php endwhile; ?>
 		 <?php get_sidebar(); ?>
-
+<!-- 
     <div class="content-wrapper">
        <div class="container">
           <div class="content">
@@ -175,7 +175,7 @@
              </article>
           </div>
        </div>
-    </div> 
+    </div>  -->
          
 
 
