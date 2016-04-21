@@ -150,7 +150,6 @@ function my_wp_nav_menu_objects_sub_menu( $sorted_menu_items, $args ) {
   }
 }
 
-<?php
 /**
  * Register our sidebars and widgetized areas.
  *
@@ -168,7 +167,7 @@ function arphabet_widgets_init() {
 
 }
 add_action( 'widgets_init', 'arphabet_widgets_init' );
-?>
+
 
 
 
