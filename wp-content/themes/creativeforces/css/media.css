@@ -1,3 +1,31 @@
 .right{
 	float:right;
 }
+
+.rss-container{
+	    max-width: 350px;
+    width: 100%;
+    margin: 25px auto;
+    background: #f4f4f4;
+}
+
+.rss-heading {
+    background: #7ED321;
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    font-weight: bold;
+}
+
+.rss-heading p{
+    font-size:8px;
+}
+
+
+.clear: both;
+
+h3{
+    font-weight: bold !important;
+    font-family: Roboto Condensed !important;
+}

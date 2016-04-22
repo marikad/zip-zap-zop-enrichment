@@ -27,34 +27,42 @@
 
 
 <?php
-include_once(ABSPATH . WPINC . '/rss.php');
 $feed = 'http://miletich2.blogspot.co.uk/feed/';
 $rss = fetch_feed($feed);
 ?>
 <div class="container">
 <div class="right">
+<div class="rss-container">
+<div class="rss-heading">
 <?php
 $title = "Clashing With Life";
 $description = 'This is a blog written by an autistic person for other autistic people about <br>some of the biggest issues in life, whether deplorable or marvelous.';
-echo '<h3 class="text-right">' . $title . '</h3>'; 
-echo '<p class="text-right">' . $description . '</p>'; 
-if (!is_wp_error( $rss ) ) :
-        $maxitems = $rss->get_item_quantity(3);
+echo '<h3 class="text-center">' . $title . '</h3>'; 
+echo '<p class="">' . $description . '</p>'; 
+?>
+</div>
+<?php
+if ( !is_wp_error($rss) ) :
+    $maxitems  = $rss->get_item_quantity(3);
     $rss_items = $rss->get_items(0, $maxitems);
     if ($rss_items):
-        echo "<ul>\n";
-        foreach ( $rss_items as $item ) : 
-            //instead of a bunch of string concatenation or echoes, I prefer the terseness of printf 
-            //(http://php.net/manual/en/function.printf.php)
-
-        	printf('<div class="text-right"><li><a href="%s">%s</a><p>%s</p><p>%s</p></li></div>',$item->get_permalink(),$item->get_title(),$item->get_date(get_option('date_format')),$item->get_description() );
+        foreach ($rss_items as $item) :
+            $item_title     = esc_attr( $item->get_title() );
+            $item_permalink = esc_url( $item->get_permalink() );
+            $item_post_date = $item->get_date( get_option('date_format') );
+            $item_excerpt   = wp_trim_words( wp_strip_all_tags( $item->get_description(), true ), 55 );
+            echo sprintf('<div class="clear"><div class="text-center"><a href="%s">%s</a><div class="">%s</div></div><p>%s</p></div>', $item_permalink, $item_title, $item_post_date, $item_excerpt);
         endforeach;
-        echo "</ul>\n";
     endif;
 endif;
 ?>
+
 </div>
 </div>
+</div>
+
+
+
 
 <div class="container">
 <div class="row">
