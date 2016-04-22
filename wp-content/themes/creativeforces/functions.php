@@ -157,7 +157,7 @@ function my_wp_nav_menu_objects_sub_menu( $sorted_menu_items, $args ) {
 function arphabet_widgets_init() {
 
   register_sidebar( array(
-    'name'          => 'Home right sidebar',
+    'name'          => 'Primary Sidebar',
     'id'            => 'home_right_1',
     'before_widget' => '<div>',
     'after_widget'  => '</div>',

@@ -7,47 +7,64 @@
  * @since Creativeforces 1.0
  */
 
-if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) || is_active_sidebar( 'sidebar-1' )  ) : ?>
-	<div id="secondary" class="secondary">
+?>
+<head>
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/creativeforces/css/sidebar.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+</head>
 
-		<?php if ( has_nav_menu( 'primary' ) ) : ?>
-			<nav id="site-navigation" class="main-navigation" role="navigation">
-				<?php
-					// Primary navigation menu.
-					wp_nav_menu( array(
-						'menu_class'     => 'nav-menu',
-						'theme_location' => 'primary',
-					) );
-				?>
-			</nav><!-- .main-navigation -->
-		<?php endif; ?>
 
-		<?php if ( has_nav_menu( 'social' ) ) : ?>
-			<nav id="social-navigation" class="social-navigation" role="navigation">
-				<?php
-					// Social links navigation menu.
-					wp_nav_menu( array(
-						'theme_location' => 'social',
-						'depth'          => 1,
-						'link_before'    => '<span class="screen-reader-text">',
-						'link_after'     => '</span>',
-					) );
-				?>
-			</nav><!-- .social-navigation -->
-		<?php endif; ?>
 
-		<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-			<div id="widget-area" class="widget-area" role="complementary">
-				<?php dynamic_sidebar( 'sidebar-1' ); ?>
-			</div><!-- .widget-area -->
-		<?php endif; ?>
+<?php get_header(); ?>
 
-	</div><!-- .secondary -->
+<div class="page-content-title-wrapper">
+    
+    <div class="wrap_1280">
+       
+        <h2 class="page-content-title"><?php the_title(); ?></h2>
+    
+    <div class="clearfix"></div>
+    
+    </div><!-- END WRAP_1280 -->
+    
+</div><!-- END PAGE-CONTENT-TITLE-WRAPPER -->
 
-<?php endif; ?>
+<div class="wrap_1280">
+    
+    <div class="main-content">
+    
+        <div class="left-page-content col-lg-8 col-md-8 col-sm-8 col-xs-8">
+         
+            <div class="page-content">
+                
+                
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                
+                    <?php the_content(); ?> 
 
-<?php if ( is_active_sidebar( 'home_right_1' ) ) : ?>
-	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-		<?php dynamic_sidebar( 'home_right_1' ); ?>
-	</div><!-- #primary-sidebar -->
-<?php endif; ?>
+                <?php endwhile; ?>
+                
+                <?php else: ?>
+                
+                    <p>No content has been posted to this page.</p>
+                    
+                <?php endif; ?>
+                             
+            </div><!-- END PAGE-CONTENT -->
+           
+        </div><!-- END LEFT-PAGE-CONTENT -->
+        
+        <?php get_sidebar('page'); ?>
+
+    </div><!-- END MAIN-CONTENT -->
+    
+</div><!-- END WRAP_1280 -->
+
+<div class="clearfix"></div>
+
+<?php get_footer(); ?>
+
+
+
+
+

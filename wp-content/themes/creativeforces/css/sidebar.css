@@ -1,0 +1,25 @@
+  #primary-sidebar {
+        float: right;
+        width: 202px;
+        background-color: #F96;
+    }
+        #primary-sidebar .widget-area {
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+            #primary-sidebar ul,
+            #primary-sidebar li {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+            }
+                #primary-sidebar.rss {
+                    padding-left: 10px;
+                }
+                    #primary-sidebar .rss {
+                        padding-left: 10px;
+                    }
+
+      .clear{
+      	overflow: hidden;
+      }
