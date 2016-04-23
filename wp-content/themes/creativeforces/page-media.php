@@ -26,11 +26,13 @@
 </header>
 
 
+
 <?php
 $feed = 'http://miletich2.blogspot.co.uk/feed/';
 $rss = fetch_feed($feed);
 ?>
 <div class="container">
+<div class="clear">
 <div class="right">
 <div class="rss-container">
 <div class="rss-heading">
@@ -50,14 +52,22 @@ if ( !is_wp_error($rss) ) :
             $item_title     = esc_attr( $item->get_title() );
             $item_permalink = esc_url( $item->get_permalink() );
             $item_post_date = $item->get_date( get_option('date_format') );
-            $item_excerpt   = wp_trim_words( wp_strip_all_tags( $item->get_description(), true ), 55 );
-            echo sprintf('<div class="clear"><div class="text-center"><a href="%s">%s</a><div class="">%s</div></div><p>%s</p></div>', $item_permalink, $item_title, $item_post_date, $item_excerpt);
+            $item_excerpt   = wp_trim_words( wp_strip_all_tags( $item->get_description(), true ), 50 );
+            echo sprintf('<div class="spacing"><a href="%s">%s</a><div class="pull-right">%s</div><p>%s</p><hr></div>', $item_permalink, $item_title, $item_post_date, $item_excerpt);
         endforeach;
     endif;
 endif;
 ?>
 
 </div>
+</div>
+<h4 class="text-center">Check out the article that as written about us!</h4>
+<div class="text-center">
+   <img src="/wp-content/themes/creativeforces/images/la-parent.jpg" alt="" />
+   </div>
+   <h3 class="text-center"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids">Theater Improv Games are Fun Ideas For Kids</a></h3>
+
+
 </div>
 </div>
 

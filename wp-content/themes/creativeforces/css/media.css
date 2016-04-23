@@ -3,7 +3,7 @@
 }
 
 .rss-container{
-	    max-width: 350px;
+	    max-width: 400px;
     width: 100%;
     margin: 25px auto;
     background: #f4f4f4;
@@ -22,10 +22,22 @@
     font-size:8px;
 }
 
-
-.clear: both;
-
-h3{
-    font-weight: bold !important;
-    font-family: Roboto Condensed !important;
+hr{
+    border-top: 1px solid #b5b5b5 !important;
 }
+
+.clear{
+    clear:both;
+}
+
+.spacing a {
+    line-height: 2em;
+    font-size: 15px;
+}
+
+.pull-right{
+    line-height: 2em;
+     font-size: 15px;
+}
+
+
