@@ -53,7 +53,7 @@ if ( !is_wp_error($rss) ) :
             $item_permalink = esc_url( $item->get_permalink() );
             $item_post_date = $item->get_date( get_option('date_format') );
             $item_excerpt   = wp_trim_words( wp_strip_all_tags( $item->get_description(), true ), 50 );
-            echo sprintf('<div class="spacing"><a href="%s">%s</a><div class="pull-right">%s</div><p>%s</p><hr></div>', $item_permalink, $item_title, $item_post_date, $item_excerpt);
+            echo sprintf('<div class="spacing"><a href="%s" target="_blank">%s</a><div class="pull-right">%s</div><p>%s</p><a href="#">Read More</a><hr></div>', $item_permalink, $item_title, $item_post_date, $item_excerpt);
         endforeach;
     endif;
 endif;
@@ -76,7 +76,10 @@ endif;
 
 <div class="container">
 <div class="row">
-<?php echo do_shortcode('[wonderplugin_carousel id="1"]'); ?>
+<?php echo do_shortcode('[wonderplugin_carousel id="2"]'); ?>
+<!-- iframe width="560" class="col-md-4" height="315" src="https://www.youtube.com/embed/MT2pevN9-qo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560"  class="col-md-4" height="315" src="https://www.youtube.com/embed/89XLwzzcNMA" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" class="col-md-4" height="315" src="https://www.youtube.com/embed/tS94kQwrPLs" frameborder="0" allowfullscreen></iframe> -->
  </div> 
  </div> 
 
