@@ -334,14 +334,6 @@ function creativeforces_hex2rgb( $color ) {
 }
 
 /**
- * Custom template tags for this theme.
- */
-
-/**
- * Customizer additions.
- */
-
-/**
  * Add custom image sizes attribute to enhance responsive image functionality
  * for content images
  *
