@@ -39,8 +39,8 @@ $rss = fetch_feed($feed);
 <?php
 $title = "Clashing With Life";
 $description = 'This is a blog written by an autistic person for other autistic people about <br>some of the biggest issues in life, whether deplorable or marvelous.';
-echo '<h3 class="text-center">' . $title . '</h3>'; 
-echo '<p class="">' . $description . '</p>'; 
+echo '<h3 class="text-center title">' . $title . '</h3>'; 
+echo '<p class="text-center">' . $description . '</p>'; 
 ?>
 </div>
 <?php
@@ -61,11 +61,11 @@ endif;
 
 </div>
 </div>
-<h4 class="text-center">Check out the article that as written about us!</h4>
+<h4 class="text-center">Check out the article that was written about us!</h4>
 <div class="text-center">
    <img src="/wp-content/themes/creativeforces/images/la-parent.jpg" alt="" />
    </div>
-   <h3 class="text-center"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids">Theater Improv Games are Fun Ideas For Kids</a></h3>
+   <h3 class="text-center"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids" target="_blank">Theater Improv Games are Fun Ideas For Kids</a></h3>
 
 
 </div>

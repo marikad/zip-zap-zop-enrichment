@@ -19,7 +19,8 @@
 }
 
 .rss-heading p{
-    font-size:8px;
+    font-size:9px;
+
 }
 
 hr{
@@ -38,6 +39,11 @@ hr{
 .pull-right{
     line-height: 2em;
      font-size: 15px;
+}
+
+h3.title {
+    font-family: Roboto Condensed !important;
+    font-weight: bold;
 }
 
 
