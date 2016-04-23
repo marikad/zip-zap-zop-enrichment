@@ -77,9 +77,6 @@ endif;
 <div class="container">
 <div class="row">
 <?php echo do_shortcode('[wonderplugin_carousel id="1"]'); ?>
-<<!-- iframe width="560" class="col-md-4" height="315" src="https://www.youtube.com/embed/MT2pevN9-qo" frameborder="0" allowfullscreen></iframe>
-<iframe width="560"  class="col-md-4" height="315" src="https://www.youtube.com/embed/89XLwzzcNMA" frameborder="0" allowfullscreen></iframe>
-<iframe width="560" class="col-md-4" height="315" src="https://www.youtube.com/embed/tS94kQwrPLs" frameborder="0" allowfullscreen></iframe> -->
  </div> 
  </div> 
 
