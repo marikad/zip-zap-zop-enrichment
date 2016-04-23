@@ -25,13 +25,7 @@
 
    <?php get_header(); ?>
 
-   
-<header>
-    	<?php while ( have_posts() ) : the_post() ?>
-			<?php the_content(); ?>
-		<?php endwhile; ?>
-		 <?php get_sidebar(); ?>
-</header>
+
 
 <div class="form-container">
 <div class="donate-heading text-center">
@@ -66,9 +60,8 @@
     </div>
   </div>
   <legend class="text-center">Enter your card details</legend>
-  <span class="full">Enter yor 16 digit card number:</span>
   <div class="credit-card-num">
-    <input type="text" name="cardNumber" id="creditCardNumber" onclick="if(this.defaultValue == this.value) this.value = ''" onblur="if(this.value=='') this.value = this.defaultValue" value="XXXX-XXXX-XXXX-XXXX" data-stripe="number">
+    <input type="text" name="cardNumber" id="creditCardNumber" style=" background-color: #f4f4f4;" onclick="if(this.defaultValue == this.value) this.value = ''" onblur="if(this.value=='') this.value = this.defaultValue" value="Enter yor 16 digit card number" data-stripe="number">
   </div>
   <div class="">
   <div class="date-wrapper">
@@ -88,7 +81,7 @@
       </select>
     </div>
     <div class="cvn">
-      <span class="full">Card Verrification Number
+      <span class="full">
         <a href="#" class="tooltip">
           <img src="/wp-content/themes/creativeforces/images/question.png" alt="question">
         </a>
@@ -96,7 +89,7 @@
           <img src="" alt="">
         </div>
       </span>
-      <input type="password" name="cardVeriNum" id="cardVeriNum">
+      <input type="password" name="cardVeriNum" id="cardVeriNum" value="cvn">
     </div>
   </div>
   </div>
