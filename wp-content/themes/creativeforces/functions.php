@@ -336,12 +336,10 @@ function creativeforces_hex2rgb( $color ) {
 /**
  * Custom template tags for this theme.
  */
-require get_template_directory() . '/inc/template-tags.php';
 
 /**
  * Customizer additions.
  */
-require get_template_directory() . '/inc/customizer.php';
 
 /**
  * Add custom image sizes attribute to enhance responsive image functionality
