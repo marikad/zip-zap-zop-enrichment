@@ -23,12 +23,15 @@
 
 }
 
+
 hr{
     border-top: 1px solid #b5b5b5 !important;
 }
 
 .article-head{
     line-height: 2em;
+    font-family: Roboto Condensed;
+    font-weight: bold;
 }
 
 .clear{
