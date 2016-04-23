@@ -45,7 +45,7 @@ echo '<p class="text-center">' . $description . '</p>';
 </div>
 <?php
 if ( !is_wp_error($rss) ) :
-    $maxitems  = $rss->get_item_quantity(3);
+    $maxitems  = $rss->get_item_quantity(5);
     $rss_items = $rss->get_items(0, $maxitems);
     if ($rss_items):
         foreach ($rss_items as $item) :
@@ -61,27 +61,22 @@ endif;
 
 </div>
 </div>
-<h4 class="text-center">Check out the article that was written about us!</h4>
+<h3 class="text-center article-head">Check out the article that was written about us!</h3>
 <div class="text-center">
    <img src="/wp-content/themes/creativeforces/images/la-parent.jpg" alt="" />
    </div>
    <h3 class="text-center"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids" target="_blank">Theater Improv Games are Fun Ideas For Kids</a></h3>
-
+<!-- <div class="text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MT2pevN9-qo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/89XLwzzcNMA" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tS94kQwrPLs" frameborder="0" allowfullscreen></iframe>
+</div> -->
+ <?php echo do_shortcode('[wonderplugin_carousel id="1"]'); ?>
 
 </div>
 </div>
 
 
-
-
-<div class="container">
-<div class="row">
-<?php echo do_shortcode('[wonderplugin_carousel id="1"]'); ?>
-<!-- iframe width="560" class="col-md-4" height="315" src="https://www.youtube.com/embed/MT2pevN9-qo" frameborder="0" allowfullscreen></iframe>
-<iframe width="560"  class="col-md-4" height="315" src="https://www.youtube.com/embed/89XLwzzcNMA" frameborder="0" allowfullscreen></iframe>
-<iframe width="560" class="col-md-4" height="315" src="https://www.youtube.com/embed/tS94kQwrPLs" frameborder="0" allowfullscreen></iframe> -->
- </div> 
- </div> 
 
 
    <?php get_footer(); ?>
