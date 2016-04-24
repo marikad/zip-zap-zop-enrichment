@@ -62,14 +62,30 @@ endif;
 </div>
 </div>
 
-
-</div>
 <div class="text-center">
 <div class="title-article"><h3 class="article-head">Check out the article that was written about us!</h3></div>
    <img src="/wp-content/themes/creativeforces/images/la-parent.jpg" alt="" />
    </div>
    <h3 class="text-center article-head"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids" target="_blank">Theater Improv Games are Fun Ideas For Kids</a></h3>
+
+
+   <!-- <iframe class="col-md-3"width="560" height="315" src="https://www.youtube.com/embed/89XLwzzcNMA" frameborder="0" allowfullscreen></iframe> -->
+   </div>
+
 </div>
+
+
+  
+
+
+<div class="container">
+   <h3 class="text-center article-head">Zip Zap Zop in Action</h3>
+   <div class="row col-md-12">
+   <iframe class="col-md-4" width="560" height="315" src="https://www.youtube.com/embed/8ZGa7X11LI0" frameborder="0" allowfullscreen></iframe>
+   <iframe class="col-md-4" width="560" height="315" src="https://www.youtube.com/embed/MT2pevN9-qo" frameborder="0" allowfullscreen></iframe>
+   <iframe class="col-md-4"width="560" height="315" src="https://www.youtube.com/embed/89XLwzzcNMA" frameborder="0" allowfullscreen></iframe>
+   </div>
+   </div>
 
 
 
