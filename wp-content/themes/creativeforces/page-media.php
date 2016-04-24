@@ -38,7 +38,7 @@ $rss = fetch_feed($feed);
 <div class="rss-heading">
 <?php
 $title = "Clashing With Life";
-$description = 'This is a blog written by an autistic person for other autistic people about <br>some of the biggest issues in life, whether deplorable or marvelous.';
+$description = 'this blog is written by Zack Miletich, Maja Miletoch (CEO) and April Miletich (COOs) brother.';
 echo '<h3 class="text-center title">' . $title . '</h3>'; 
 echo '<p class="text-center">' . $description . '</p>'; 
 ?>
