@@ -38,7 +38,7 @@ $rss = fetch_feed($feed);
 <div class="rss-heading">
 <?php
 $title = "Clashing With Life";
-$description = 'this blog is written by Zack Miletich, Maja Miletoch (CEO) and April Miletich (COOs) brother.';
+$description = 'this blog is written by Zack Miletich, Maja Miletich (CEO) and April Miletich (COOs) brother.';
 echo '<h3 class="text-center title">' . $title . '</h3>'; 
 echo '<p class="text-center">' . $description . '</p>'; 
 ?>
@@ -61,14 +61,14 @@ endif;
 
 </div>
 </div>
-<h3 class="text-center article-head">Check out the article that was written about us!</h3>
-<div class="text-center">
-   <img src="/wp-content/themes/creativeforces/images/la-parent.jpg" alt="" />
-   </div>
-   <h3 class="text-center article-head"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids" target="_blank">Theater Improv Games are Fun Ideas For Kids</a></h3>
 
 
 </div>
+<div class="text-center">
+<h3 class="article-head">Check out the article that was written about us!</h3>
+   <img src="/wp-content/themes/creativeforces/images/la-parent.jpg" alt="" />
+   </div>
+   <h3 class="text-center article-head"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids" target="_blank">Theater Improv Games are Fun Ideas For Kids</a></h3>
 </div>
 
 
