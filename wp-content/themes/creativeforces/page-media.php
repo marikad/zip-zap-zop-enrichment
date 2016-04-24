@@ -53,7 +53,7 @@ if ( !is_wp_error($rss) ) :
             $item_permalink = esc_url( $item->get_permalink() );
             $item_post_date = $item->get_date( get_option('date_format') );
             $item_excerpt   = wp_trim_words( wp_strip_all_tags( $item->get_description(), true ), 50 );
-            echo sprintf('<div class="spacing"><a href="%s" target="_blank">%s</a><div class="pull-right">%s</div><p>%s</p><a href="#">Read More</a><hr></div>', $item_permalink, $item_title, $item_post_date, $item_excerpt);
+            echo sprintf('<div class="spacing"><a href="%s" target="_blank">%s</a><div class="pull-right">%s</div><p>%s</p><hr></div>', $item_permalink, $item_title, $item_post_date, $item_excerpt);
         endforeach;
     endif;
 endif;

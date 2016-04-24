@@ -29,7 +29,7 @@
 
 <div class="form-container">
 <div class="donate-heading text-center">
-  <h1>Donate Now!</h1>
+  <h1>Support our Students!</h1>
 </div>
 <div class="form-content">
  
@@ -89,7 +89,7 @@
           <img src="" alt="">
         </div>
       </span>
-      <input type="password" name="cardVeriNum" id="cardVeriNum" value="cvn">
+      <input type="password" name="cardVeriNum" id="cardVeriNum" placeholder ="cvn">
     </div>
   </div>
   </div>
