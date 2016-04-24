@@ -39,6 +39,10 @@ hr{
     clear:both;
 }
 
+.title{
+    display:inline-block;
+}
+
 .spacing a {
     line-height: 2em;
     font-size: 15px;

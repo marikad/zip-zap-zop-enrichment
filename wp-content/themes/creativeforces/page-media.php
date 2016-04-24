@@ -65,7 +65,7 @@ endif;
 
 </div>
 <div class="text-center">
-<h3 class="article-head">Check out the article that was written about us!</h3>
+    <div class="title"><h3 class="article-head">Check out the article that was written about us!</h3></div>
    <img src="/wp-content/themes/creativeforces/images/la-parent.jpg" alt="" />
    </div>
    <h3 class="text-center article-head"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids" target="_blank">Theater Improv Games are Fun Ideas For Kids</a></h3>

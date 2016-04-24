@@ -81,6 +81,7 @@
       </select>
     </div>
     <div class="cvn">
+    <span>Card Verification Number</span>
       <span class="full">
         <a href="#" class="tooltip">
           <img src="/wp-content/themes/creativeforces/images/question.png" alt="question">
@@ -89,7 +90,7 @@
           <img src="" alt="">
         </div>
       </span>
-      <input type="password" name="cardVeriNum" id="cardVeriNum" placeholder ="cvn">
+      <input type="password" name="cardVeriNum" id="cardVeriNum">
     </div>
   </div>
   </div>
