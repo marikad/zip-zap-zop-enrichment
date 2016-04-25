@@ -20,6 +20,18 @@
     font-weight: bold;
 }
 
+.image-container {
+  position: relative;
+}
+.image-container .title-article {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  font-weight: bold;
+  color: yellow;
+  font-size: 2em;
+}
+
 .rss-heading p{
     font-size:9px;
 
