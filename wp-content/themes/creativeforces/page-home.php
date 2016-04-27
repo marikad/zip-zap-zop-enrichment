@@ -22,7 +22,7 @@
 		<?php endwhile; ?>
 </header>
 
-<!-- <div class="carousel-inner">
+<div class="carousel-inner">
 <div class="item active"><img class="img-responsive" style="width: 100%;" src="/wp-content/themes/creativeforces/images/preschool.jpg" alt="" />
 <div class="carousel-caption">
 <div class="inner-caption">
@@ -62,7 +62,15 @@ crucial part of a childs development</p>
 </div>
 <div class="row">
 <div class="space">
-	<p class="mission col-md-6"><strong>Zip Zap Zop Enrichment</strong> provides creative writing and improvisation classes to students in California. Our mission is to empower students with and without special needs by creating inclusive learning opportunities to develop verbal and nonverbal communication skills.</p>
+	<p class="mission col-md-6"><strong>Mission:</strong> Our mission is to empower students with and without special needs by creating inclusive learning opportunities.<br>
+	<strong>Vision: </strong> 
+	Zip Zap Zop Enrichment provides creative writing and improvisation classes to students in California. 
+
+Zip Zap Zop Enrichment aims to develop verbal and nonverbal communication skills through theater improv and creative writing 
+
+Zip Zap Zop Enrichment wishes to unlock the creative potential of students of all abilities and exceptionalities
+
+	</p>
 
 <iframe width="560" class="col-md-6" height="315" src="https://www.youtube.com/embed/YzGoBK7X208" frameborder="0" allowfullscreen></iframe>
 </div>
@@ -87,7 +95,7 @@ crucial part of a childs development</p>
 
 </section>
 <h3 class="text-center">We have partnered with Zip Zap Zop: Improv for Kids! Click <a href=" http://www.zipzapzopimprov.com/" target="_blank" class="click-here">here</a> to learn more</h3>
-<a href=" http://www.zipzapzopimprov.com/" target="_blank"><img class="center-block" src="/wp-content/themes/creativeforces/images/zip.jpeg" alt="" /></a> -->
+<a href=" http://www.zipzapzopimprov.com/" target="_blank"><img class="center-block" src="/wp-content/themes/creativeforces/images/zip.jpeg" alt="" /></a>
 
     
     
