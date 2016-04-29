@@ -29,7 +29,7 @@
 <div class="carousel-caption">
 <div class="inner-caption">
 <h3 class="carousel-head">Zip Zap Zop Enrichment:</h3>
-<p class="carousel-body">Communication is the gateway to learning</p>
+	<p class="carousel-body"><em>communication is the gateway to all learning</em></p>
 <button class="btn btn-primary btn-shadow" type="">Learn More</button>
 
 </div>
