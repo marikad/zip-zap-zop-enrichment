@@ -62,7 +62,7 @@
                         </div>
                     </div>
                      <div class="line">
-                <h3 class="text-center exec-header">"Advisory Board</h3>
+                <h3 class="text-center exec-header">Advisory Board</h3>
             </div>
 
             <div class="content-item first cf" id="ari">
