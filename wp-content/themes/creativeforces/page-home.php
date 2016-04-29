@@ -23,7 +23,9 @@
 </header>
 
 <div class="carousel-inner">
-<div class="item active"><img class="img-responsive" style="width: 100%;" src="/wp-content/themes/creativeforces/images/preschool.jpg" alt="" />
+<div class="item active">
+
+<img class="img-responsive" style="width: 100%;" src="/wp-content/themes/creativeforces/images/preschool.jpg" alt="" />
 <div class="carousel-caption">
 <div class="inner-caption">
 <h3 class="carousel-head">Zip Zap Zop Enrichment:</h3>
@@ -33,7 +35,9 @@
 </div>
 </div>
 </div>
-<div class="item"><img class="img-responsive" style="width: 100%;" src="/wp-content/themes/creativeforces/images/kid.jpg" alt="" />
+<div class="item">
+
+<img class="img-responsive" style="width: 100%;" src="/wp-content/themes/creativeforces/images/kid.jpg" alt="" />
 <div class="carousel-caption">
 <div class="inner-caption">
 <h3 class="carousel-head">Advocates For Play</h3>
@@ -45,8 +49,6 @@ crucial part of a childs development</p>
 </div>
 </div>
 </div>
-</div>
-
 <div class="container">
 <div class="line">
 <p class="text-center who-we-are">Who We Are</p>
@@ -54,39 +56,36 @@ crucial part of a childs development</p>
 </div>
 <div class="row">
 <div class="space">
-	<p class="mission col-md-6"><strong>Mission:</strong> Our mission is to empower students with and without special needs by creating inclusive learning opportunities.<br><br>
-	<strong>Vision: </strong> 
-	Zip Zap Zop Enrichment provides creative writing and improvisation classes to students in California. <br><br>
+<p class="mission col-md-6"><strong>Mission:</strong> Our mission is to empower students with and without special needs by creating inclusive learning opportunities.
 
-Zip Zap Zop Enrichment aims to develop verbal and nonverbal communication skills through theater improv and creative writing .<br><br>
+<strong>Vision: </strong>
+Zip Zap Zop Enrichment provides creative writing and improvisation classes to students in California.
 
-Zip Zap Zop Enrichment wishes to unlock the creative potential of students of all abilities and exceptionalities
+</p>
+Zip Zap Zop Enrichment aims to develop verbal and nonverbal communication skills through theater improv and creative writing .
 
-	</p>
+Zip Zap Zop Enrichment wishes to unlock the creative potential of students of all abilities
 
-<iframe width="560" class="col-md-6" height="315" src="https://www.youtube.com/embed/YzGoBK7X208" frameborder="0" allowfullscreen></iframe>
+<iframe class="col-md-6" src="https://www.youtube.com/embed/YzGoBK7X208" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
 </div>
 </div>
 </div>
 <section class="part2">
-
-
 <div class="container">
 <p class="text-center program-head">What is Improv?</p>
-	<div class="row">
-		<div class="col-md-6 program-item text-center">
-		<img id="image1" class="resize-image" src="/wp-content/themes/creativeforces/images/kidsimprov.jpg" alt="" />
-	</div>
-		<div class="col-md-6">
-		<p class="program-info">Improv is an incredibly powerful tool in that it can seamlessly incorporate non-verbal students and allow students to enhance their sense of community. One way to define improv as an educational tool is that improv allows you to create new ideas and concepts spur of the moment.</p>
-		<p class="program-info">These thoughts can be written out, verbally communicated, and non-verbally communicated in many ways.  Improv is a term to represent games and activities that aid in socialization including creative writing, performance type games, and team building exercises. </p>
-		</div>
-	</div>
-</div> 
-</div>
 
+<div class="row">
+<div class="col-md-6 program-item text-center"><img id="image1" class="resize-image" src="/wp-content/themes/creativeforces/images/kidsimprov.jpg" alt="" /></div>
+<div class="col-md-6">
+<p class="program-info">Improv is an incredibly powerful tool in that it can seamlessly incorporate non-verbal students and allow students to enhance their sense of community. One way to define improv as an educational tool is that improv allows you to create new ideas and concepts spur of the moment.</p>
+<p class="program-info">These thoughts can be written out, verbally communicated, and non-verbally communicated in many ways. Improv is a term to represent games and activities that aid in socialization including creative writing, performance type games, and team building exercises.</p>
+
+</div>
+</div>
+</div>
 </section>
-<h3 class="text-center">We have partnered with Zip Zap Zop: Improv for Kids! Click <a href=" http://www.zipzapzopimprov.com/" target="_blank" class="click-here">here</a> to learn more</h3>
+<h3 class="text-center">We have partnered with Zip Zap Zop: Improv for Kids! Click <a class="click-here" href=" http://www.zipzapzopimprov.com/" target="_blank">here</a> to learn more</h3>
 <a href=" http://www.zipzapzopimprov.com/" target="_blank"><img class="center-block" src="/wp-content/themes/creativeforces/images/zip.jpeg" alt="" /></a>
 
     
