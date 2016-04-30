@@ -33,6 +33,7 @@
 <div class="form-content">
 <?php echo do_shortcode( '[contact-form-7 id="30" title="contact-form"]'); ?>
 </div>
+<div class="number text-center">To contact Maja Miletich please call at 925-413-6641</div>
 </div>
 
 <!-- <div class="form-container">
