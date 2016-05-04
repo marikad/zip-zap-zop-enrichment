@@ -11,7 +11,7 @@
  <head>
 	<meta charset="utf-8">
 	<title>Zip Zap Zop Enrichment | Media</title>
-	<!-- <link rel="stylesheet" type="text/css" href="/wp-content/themes/creativeforces/css/media.css"> -->
+	<link rel="stylesheet" type="text/css" href="/wp-content/themes/creativeforces/css/blog.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 </head>
 
