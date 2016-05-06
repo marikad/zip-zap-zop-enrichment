@@ -19,3 +19,22 @@
     background: #fff;
     padding: 30px 24px;
 }
+
+hr{
+    border-top: 1px solid #DCDCDC !important;
+}
+
+.article-head{
+    line-height: 2em;
+    font-family: Roboto Condensed;
+    font-weight: bold;
+}
+
+.title-article{
+    display:inline-block;
+}
+
+.spacing a {
+    line-height: 2em;
+    font-size: 15px;
+}
