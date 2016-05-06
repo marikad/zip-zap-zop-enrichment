@@ -28,14 +28,12 @@
 $feed = 'http://miletich2.blogspot.co.uk/feed/';
 $rss = fetch_feed($feed);
 ?>
-<div class="container">
-<div class="clear">
-<div class="right">      
+<div class="container"> 
 <div class="rss-container">
 <div class="rss-heading">
 <?php
 $title = "Clashing With Life";
-$description = 'Zack Miletich, a man with autism, is Maja Miletich (CEO) and April Miletich- Rasmussens (COO) brother. Zack has found blog writing an amazing communication tool.';
+$description = 'Zack Miletich, a man with autism, is Maja Miletich (CEO) and April Miletich-Rasmussens (COO) brother. Zack has found blog writing an amazing communication tool.';
 echo '<h3 class="text-center title">' . $title . '</h3>'; 
 echo '<p class="text-center">' . $description . '</p>'; 
 ?>
@@ -57,9 +55,6 @@ endif;
 ?>
 
 </div>
-</div>
-
-   </div>
 
 </div>
 
