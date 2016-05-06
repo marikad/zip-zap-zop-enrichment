@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Template Name: Zachs_Blog
@@ -35,7 +36,7 @@ $rss = fetch_feed($feed);
 <div class="rss-heading">
 <?php
 $title = "Clashing With Life";
-$description = 'Zack Miletich, a man with autism, is Maja Miletich (CEO) and April Miletich-Rasmussens (COO) brother. Zack has found blog writing an amazing communication tool.';
+$description = 'Zack Miletich, a man with autism, is Maja Miletich (CEO) and April Miletich- Rasmussens (coo) brother. Zack has found blog writing an amazing communication tool.';
 echo '<h3 class="text-center title">' . $title . '</h3>'; 
 echo '<p class="text-center">' . $description . '</p>'; 
 ?>
@@ -49,7 +50,7 @@ if ( !is_wp_error($rss) ) :
             $item_title     = esc_attr( $item->get_title() );
             $item_permalink = esc_url( $item->get_permalink() );
             $item_post_date = $item->get_date( get_option('date_format') );
-            $item_excerpt   = wp_trim_words( wp_strip_all_tags( $item->get_description(), true ), 100 );
+            $item_excerpt   = wp_trim_words( wp_strip_all_tags( $item->get_description(), true ), 50 );
             echo sprintf('<div class="spacing"><a href="%s" target="_blank">%s</a><div class="pull-right">%s</div><p>%s</p><hr></div>', $item_permalink, $item_title, $item_post_date, $item_excerpt);
         endforeach;
     endif;
