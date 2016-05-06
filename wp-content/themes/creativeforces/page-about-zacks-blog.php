@@ -68,7 +68,7 @@ endif;
 
   
 
-
+<!-- 
 <div class="container">
    <h3 class="text-center article-head">Zip Zap Zop in Action</h3>
    <div class="row col-md-12">
@@ -76,7 +76,7 @@ endif;
    <iframe class="col-md-4" width="560" height="315" src="https://www.youtube.com/embed/MT2pevN9-qo" frameborder="0" allowfullscreen></iframe>
    <iframe class="col-md-4"width="560" height="315" src="https://www.youtube.com/embed/89XLwzzcNMA" frameborder="0" allowfullscreen></iframe>
    </div>
-   </div>
+   </div> -->
 
 
    <?php get_footer(); ?>
