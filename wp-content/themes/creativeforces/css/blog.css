@@ -24,3 +24,9 @@
 hr{
     border-top: 1px solid #DCDCDC !important;
 }
+
+.article-head{
+    line-height: 2em;
+    font-family: Roboto Condensed;
+    font-weight: bold;
+}
