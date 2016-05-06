@@ -19,3 +19,8 @@
     background: #fff;
     padding: 30px 24px;
 }
+
+
+hr{
+    border-top: 1px solid #DCDCDC !important;
+}
