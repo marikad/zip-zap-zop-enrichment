@@ -52,8 +52,8 @@
                     <div class="content-item cf" id="april">
                         <figure>
                             <img alt="" class="bio-pics" src=
-                            "/wp-content/themes/creativeforces/images/aprilnew.jpg"
-                            width="175px">
+                            "/wp-content/themes/creativeforces/images/april2.jpg"
+                            width="250px">
                         </figure>
                         <h3 class="name">April Miletich-Rasmussen, PhD</h3>
                         <h5 class="job-title">COO</h5>

@@ -43,7 +43,7 @@ echo '<p class="text-center">' . $description . '</p>';
 </div>
 <?php
 if ( !is_wp_error($rss) ) :
-    $maxitems  = $rss->get_item_quantity(3);
+    $maxitems  = $rss->get_item_quantity(10);
     $rss_items = $rss->get_items(0, $maxitems);
     if ($rss_items):
         foreach ($rss_items as $item) :
