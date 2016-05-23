@@ -28,9 +28,9 @@
 <img class="img-responsive" style="width: 100%;" src="/wp-content/themes/creativeforces/images/preschool.jpg" alt="" />
 <div class="carousel-caption">
 <div class="inner-caption">
-<h3 class="carousel-head">Zip Zap Zop Enrichment:</h3>
+<h3 class="carousel-head">Zip Zap Zop Enrichment<br> a Non-Profit:</h3>
 	<p class="carousel-body"><em>empowering children of ALL abilities!!</em></p>
-<button class="btn btn-primary btn-shadow" type="">Learn More</button>
+
 
 </div>
 </div>
