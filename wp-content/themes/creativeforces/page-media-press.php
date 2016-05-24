@@ -19,7 +19,9 @@
 
    <?php get_header(); ?>
 
-
+<div class="text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YMY0RDj3dzo" frameborder="0" allowfullscreen></iframe>
+</div>
 <div class="text-center">
 <div class="title-article"><h3 class="article-head">Check out the article that was written about us!</h3></div>
    <img src="/wp-content/themes/creativeforces/images/la-parent.jpg" alt="" />
