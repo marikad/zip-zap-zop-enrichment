@@ -24,8 +24,9 @@
 		<?php endwhile; ?>
 
 </header>
-
+<div class="container">
   <h2>Zack's Story</h2>
+  </div>
 
   <p>Zack Miletich is the reason why Zip Zap Zop Enrichment was put into action. Zack has autism and has struggled with connecting with others, even though Zack has a lot to say. One day Zack was explaining to his family how he is upset that the bee's are dying. Zack is VERY passionate about global warming and the earth in general. Maja Miletich (CEO) started asking Zack questions about the bees. Zack's response was to "check out my blog, Maja!". Maja explained she didn't know he had a blog, and once discovered the years of blog entries Zack had written, Maja was overwhelmed with excitement. Zack found his way to communicate his thoughts and opinions! Maja and her sister April decided to dedicate their life to helping other children, teens, and adults with or without special needs to find their way as well! Please feel free to read Zack's blog "Clashing with Life".</p>
 
