@@ -23,7 +23,7 @@
 </header>
 
 
-<div class="carousel-inner">
+<!-- <div class="carousel-inner">
 <div class="item active">
 
 <img class="img-responsive" style="width: 100%;" src="/wp-content/themes/creativeforces/images/preschool.jpg" alt="" />
@@ -49,15 +49,18 @@ crucial part of a childs development</p>
 </div>
 </div>
 </div>
+</div> -->
+<div class="text-center">
+<iframe  src="https://www.youtube.com/embed/YzGoBK7X208" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 </div>
 <div class="container">
 <div class="line">
 <p class="text-center who-we-are">Who We Are</p>
 
 </div>
-<div class="row">
+<div class="text-center">
 <div class="space">
-<p class="mission col-md-6"><strong>Mission</strong><br> Our mission is to empower students with and without special needs by creating inclusive learning opportunities.<br><br>
+<p class="mission"><strong>Mission</strong><br> Our mission is to empower students with and without special needs by creating inclusive learning opportunities.<br><br>
 
 <strong>Vision </strong><br>
 	<strong>Zip Zap Zop Enrichment</strong> provides creative writing and improvisation classes to students in California. <br><br>
@@ -68,7 +71,7 @@ crucial part of a childs development</p>
 <strong>Zip Zap Zop Enrichment</strong>  wishes to unlock the creative potential of students of all abilities.
 </p>
 
-<iframe class="col-md-6" src="https://www.youtube.com/embed/YzGoBK7X208" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<!-- <iframe class="col-md-6" src="https://www.youtube.com/embed/YzGoBK7X208" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe> -->
 
 </div>
 </div>

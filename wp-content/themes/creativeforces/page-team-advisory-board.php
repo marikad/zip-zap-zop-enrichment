@@ -40,9 +40,9 @@
 
               <div class="content-item first cf" id="oscar">
                 <figure>
-                    <img alt="" class="bio-pics" src=
+                    <!-- <img alt="" class="bio-pics" src=
                     "/wp-content/themes/creativeforces/images/ari.jpg" width=
-                    "250px">
+                    "250px"> -->
                 </figure>
                 <h3 class="name">Oscar Madrigal</h3>
                 <h5 class="job-title">President</h5>
