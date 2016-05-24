@@ -61,6 +61,19 @@
 <p>April Rasmussen, PhD has been a credentialed English teacher since 2008 and has taught everything from advanced placement English language and composition to literature through film, and English as a second language support classes. Her passion is for the art of story and also storytelling as a tool for student growth. She  holds advanced degrees in education, mythology and depth-psychology.</p>
                         </div>
                     </div>
+                      <hr>
+                    <div class="content-item cf" id="april">
+                        <figure>
+                            <img alt="" class="bio-pics" src=
+                            "/wp-content/themes/creativeforces/images/curric.jpg"
+                            width="250px" height="250px;">
+                        </figure>
+                        <h3 class="name"> Will Todisco</h3>
+                        <h5 class="job-title">Curriculum Specialist</h5>
+                        <div class="description">
+<p>After receiving his B.A. in Theatre, Will toured nationally with a children's theatre company, performing literary classics, which led him to work with students at an Improv-based summer camp for children on the Autism Spectrum.  The Spotlight Program, based out of the NorthEast ARC in Danvers, MA, made the connection between improvisational performance and the social-emotional and social pragmatic growth and development for children on the Spectrum and beyond.   After assisting the SPED department at Edward Devotion, a public school in Brookline, Will moved out to LA to begin work for the LCS SPED program where he was able to develop his Improv(e) Social Skills class that has been offered at each of the LCS campuses over the 2014-2016 school years. </p>
+                        </div>
+                    </div>
                      <div class="line">
                 
           </div>

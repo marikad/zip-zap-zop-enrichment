@@ -90,6 +90,7 @@
 <p>Melina Johnson is a self-employed entrepreneur who created her own home organizing business. Melina is the mother of two children, her son having Autism. She has spent countless hours dedicated to researching and providing her son with the best therapies and services to help him with his growth and development. Every therapist and teacher, over the years, has told Melina that her natural sense of humor has been the best therapy she could provide to her son - Humor and laughter open up doors to cognitive and social development. And it’s fun!</p>
                 </div>
             </div>
+            
              </article>
           </div>
        </div>
