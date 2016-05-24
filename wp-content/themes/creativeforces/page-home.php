@@ -22,7 +22,11 @@
 		<?php endwhile; ?>
 </header>
 
-<div class="carousel-inner">
+<div class="text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YMY0RDj3dzo" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<!-- <div class="carousel-inner">
 <div class="item active">
 
 <img class="img-responsive" style="width: 100%;" src="/wp-content/themes/creativeforces/images/preschool.jpg" alt="" />
@@ -48,7 +52,7 @@ crucial part of a childs development</p>
 </div>
 </div>
 </div>
-</div>
+</div> -->
 <div class="container">
 <div class="line">
 <p class="text-center who-we-are">Who We Are</p>
