@@ -43,9 +43,8 @@
    <div class="row col-md-12">
    <iframe class="col-md-4" width="560" height="315" src="
 https://www.youtube.com/embed/YzGoBK7X208" frameborder="0" allowfullscreen></iframe>
-   <iframe class="col-md-4" width="560" height="315" src="https://www.youtube.com/embed/tS94kQwrPLsZip " frameborder="0" allowfullscreen></iframe>
-   <iframe class="col-md-4"width="560" height="315" src="https://www.youtube.com/embed/tS94kQwrPLsZip 
-" frameborder="0" allowfullscreen></iframe>
+   <iframe class="col-md-4" width="560" height="315" src="https://www.youtube.com/embed/tS94kQwrPLs" frameborder="0" allowfullscreen></iframe>
+   <iframe class="col-md-4"width="560" height="315" src="https://www.youtube.com/watch?v=4uqqxmbB8F8" frameborder="0" allowfullscreen></iframe>
    </div>
 </div>
 
