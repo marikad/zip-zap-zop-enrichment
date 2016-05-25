@@ -69,7 +69,7 @@
                             width="250px" height="250px;">
                         </figure>
                         <div class="line">
-                    <h2 class="text-center exec-header">Team</h2>
+                    <h2 class="text-center exec-header">Our Team</h2>
                 </div>
                         <h3 class="name"> Will Todisco</h3>
                         <h5 class="job-title">Curriculum Specialist</h5>
