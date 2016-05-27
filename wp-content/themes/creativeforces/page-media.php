@@ -43,9 +43,10 @@
    <h3 class="text-center article-head"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids" target="_blank">Theater Improv Games are Fun Ideas For Kids</a></h3> 
 
   
-<hr>
+
 
 <div class="container">
+<hr>
    <h3 class="text-center article-head">Zip Zap Zop in Action</h3>
    <div class="row col-md-12">
    <iframe class="col-md-4" width="560" height="315" src="https://www.youtube.com/embed/8ZGa7X11LI0" frameborder="0" allowfullscreen></iframe>
