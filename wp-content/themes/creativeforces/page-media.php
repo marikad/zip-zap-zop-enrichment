@@ -28,7 +28,17 @@
 
 
 
-
+<div class="text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YMY0RDj3dzo" frameborder="0" allowfullscreen></iframe>
+ </div>
+<div class="text-center">
+<div class="title-article"><h3 class="article-head">Check out the article that was written about us!</h3></div>
+  </div>
+  <div class="text-center">
+   <img src="/wp-content/themes/creativeforces/images/la-parent.jpg" alt="" />
+</div>
+  
+   <h3 class="text-center article-head"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids" target="_blank">Theater Improv Games are Fun Ideas For Kids</a></h3> 
 
   
 
