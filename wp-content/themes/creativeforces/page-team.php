@@ -55,7 +55,7 @@
                             "/wp-content/themes/creativeforces/images/april2.jpg"
                             width="250px" height="250px;">
                         </figure>
-                        <h3 class="name">April Miletich, PhD</h3>
+                        <h3 class="name">April Rassmussen, PhD</h3>
                         <h5 class="job-title">COO</h5>
                         <div class="description">
 <p>April Rasmussen, PhD has been a credentialed English teacher since 2008 and has taught everything from advanced placement English language and composition to literature through film, and English as a second language support classes. Her passion is for the art of story and also storytelling as a tool for student growth. She  holds advanced degrees in education, mythology and depth-psychology.</p>

@@ -29,7 +29,7 @@
 <h2 class="article-head text-center">Press</h2>
 
 <div class="text-center">
-<h3 class="article-head">Check out this inclusive interview discussing Zip Zap Zop Enrichment and the power of inclusion!</h3>
+<h3 class="article-head">Check out this exclusive interview discussing Zip Zap Zop Enrichment and the power of inclusion!</h3>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YMY0RDj3dzo" frameborder="0" allowfullscreen></iframe>
 
  </div>
