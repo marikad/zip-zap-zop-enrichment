@@ -43,7 +43,7 @@
                             width="250px">
                    </figure>
                    <h3 class="name">Maja Miletich</h3>
-                   <h5 class="job-title">CEO</h5>
+                   <h5 class="job-title">CEO, CO-Founder</h5>
                    <div class="description">
                            <p>Maja has worked with children on many levels. Having a brother on the Autism Spectrum has given Maja an understanding of how powerful communication is for ALL children. Maja's education includes a B.A. in Child Development and she is also a graduate of The Second City where she stuided improv and sketch comedy.  Maja has worked for years as a teacher and behaviorist where she practiced emergent curriculum. Maja’s focus is on inclusive classrooms where curriculum is designed to allow children and young adults to feel comfortable expressing themselves in whichever way they feel most comfortable.</p>
                    </div>
@@ -56,7 +56,7 @@
                             width="250px" height="250px;">
                         </figure>
                         <h3 class="name">April Rasmussen, PhD</h3>
-                        <h5 class="job-title">COO</h5>
+                        <h5 class="job-title">COO, CO-Founder</h5>
                         <div class="description">
 <p>April Rasmussen, PhD has been a credentialed English teacher since 2008 and has taught everything from advanced placement English language and composition to literature through film, and English as a second language support classes. Her passion is for the art of story and also storytelling as a tool for student growth. She  holds advanced degrees in education, mythology and depth-psychology.</p>
                         </div>
@@ -78,6 +78,18 @@
 <p>After receiving his B.A. in Theatre, Will toured nationally with a children's theatre company, performing literary classics, which led him to work with students at an Improv-based summer camp for children on the Autism Spectrum.  The Spotlight Program, based out of the NorthEast ARC in Danvers, MA, made the connection between improvisational performance and the social-emotional and social pragmatic growth and development for children on the Spectrum and beyond.   After assisting the SPED department at Edward Devotion, a public school in Brookline, Will moved out to LA to begin work for the LCS SPED program where he was able to develop his Improv(e) Social Skills class that has been offered at each of the LCS campuses over the 2014-2016 school years. </p>
                         </div>
                     </div>
+                              <div class="content-item first cf" id="oscar">
+                <figure>
+                    <img alt="" class="bio-pics" src=
+                    "/wp-content/themes/creativeforces/images/yuuri.jpg" width=
+                    "250px">
+                </figure>
+                <h3 class="name">Yuri Maldonado</h3>
+                <h5 class="job-title">Communication Manager</h5>
+                <div class="description">
+<p>Yuri is first and foremost a mom. Yuri is a lover of people and food. She likes to believe she is a super mom but knows she is only human, therefore places a big value on "me time." Because, happy moms raise happy kids. Yuri understands the power of imaginative play for all children. Yuri plays a game with her son called "Zombie Mommy", who is a fictional character who loves to give tickles. It was a game created by her to help her son develop expressive language. Yuri is a big supporter of the arts as an essential part of a school curriculum. After all, that is what helped Yuri shape her natural curiosity for the world. Yuri has spoken in Sacramento regarding vital propositions which affect the sector of the human services. Yuri, is a natural advocate with the sole purpose of spreading love, respect, and acceptance during her lifetime and would like this to be her legacy to the world.</p>
+                </div>
+            </div>
                         
                         <div class="line">
                 <h3 class="text-center exec-header">Advisory Board</h3>
@@ -85,9 +97,9 @@
 
               <div class="content-item first cf" id="oscar">
                 <figure>
-                    <!-- <img alt="" class="bio-pics" src=
-                    "/wp-content/themes/creativeforces/images/ari.jpg" width=
-                    "250px"> -->
+                    <img alt="" class="bio-pics" src=
+                    "/wp-content/themes/creativeforces/images/oscar.jpg" width=
+                    "250px">
                 </figure>
                 <h3 class="name">Oscar Madrigal</h3>
                 <h5 class="job-title">President</h5>
@@ -133,6 +145,19 @@
                 <h5 class="job-title">Secretary</h5>
                 <div class="description">
 <p>Melina Johnson is a self-employed entrepreneur who created her own home organizing business. Melina is the mother of two children, her son having Autism. She has spent countless hours dedicated to researching and providing her son with the best therapies and services to help him with his growth and development. Every therapist and teacher, over the years, has told Melina that her natural sense of humor has been the best therapy she could provide to her son - Humor and laughter open up doors to cognitive and social development. And it’s fun!</p>
+                </div>
+            </div>
+
+                      <div class="content-item first cf" id="oscar">
+                <figure>
+                    <img alt="" class="bio-pics" src=
+                    "/wp-content/themes/creativeforces/images/kylr.jpg" width=
+                    "250px">
+                </figure>
+                <h3 class="name">Kyle Smith</h3>
+                <h5 class="job-title">Legal Consultant</h5>
+                <div class="description">
+<p>Kyle R. Smith is an attorney based in San Francisco specializing in the representation of business entities and non-profit organizations. Since 2010 he has worked with California YMCA Youth and Government to educate high school students about the law through mock trials.</p>
                 </div>
             </div>
 
