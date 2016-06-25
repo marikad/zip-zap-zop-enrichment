@@ -98,7 +98,7 @@
               <div class="content-item first cf" id="oscar">
                 <figure>
                     <img alt="" class="bio-pics" src=
-                    "/wp-content/themes/creativeforces/images/oscar.jpg" width=
+                    "/wp-content/themes/creativeforces/images/oscar.JPG" width=
                     "250px">
                 </figure>
                 <h3 class="name">Oscar Madrigal</h3>
@@ -151,7 +151,7 @@
                       <div class="content-item first cf" id="oscar">
                 <figure>
                     <img alt="" class="bio-pics" src=
-                    "/wp-content/themes/creativeforces/images/kylr.jpg" width=
+                    "/wp-content/themes/creativeforces/images/kylr.JPG" width=
                     "250px">
                 </figure>
                 <h3 class="name">Kyle Smith</h3>
