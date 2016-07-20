@@ -165,7 +165,7 @@ fieldset {
     margin-bottom: 17px !important;
 }
 .personal-detail input[type="text"], .cvn input {
-    line-height: 28px\0/;
+    line-height: 28px;
 }
 
 legend, .pay-mode-heading {

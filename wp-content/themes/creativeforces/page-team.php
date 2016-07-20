@@ -78,18 +78,7 @@
 <p>After receiving his B.A. in Theatre, Will toured nationally with a children's theatre company, performing literary classics, which led him to work with students at an Improv-based summer camp for children on the Autism Spectrum.  The Spotlight Program, based out of the NorthEast ARC in Danvers, MA, made the connection between improvisational performance and the social-emotional and social pragmatic growth and development for children on the Spectrum and beyond.   After assisting the SPED department at Edward Devotion, a public school in Brookline, Will moved out to LA to begin work for the LCS SPED program where he was able to develop his Improv(e) Social Skills class that has been offered at each of the LCS campuses over the 2014-2016 school years. </p>
                         </div>
                     </div>
-                              <div class="content-item first cf" id="oscar">
-                <figure>
-                    <img alt="" class="bio-pics" src=
-                    "/wp-content/themes/creativeforces/images/yuuri.jpg" width=
-                    "250px">
-                </figure>
-                <h3 class="name">Yuri Maldonado</h3>
-                <h5 class="job-title">Communication Manager</h5>
-                <div class="description">
-<p>Yuri is first and foremost a mom. Yuri is a lover of people and food. She likes to believe she is a super mom but knows she is only human, therefore places a big value on "me time." Because, happy moms raise happy kids. Yuri understands the power of imaginative play for all children. Yuri plays a game with her son called "Zombie Mommy", who is a fictional character who loves to give tickles. It was a game created by her to help her son develop expressive language. Yuri is a big supporter of the arts as an essential part of a school curriculum. After all, that is what helped Yuri shape her natural curiosity for the world. Yuri has spoken in Sacramento regarding vital propositions which affect the sector of the human services. Yuri, is a natural advocate with the sole purpose of spreading love, respect, and acceptance during her lifetime and would like this to be her legacy to the world.</p>
-                </div>
-            </div>
+                
                         
                         <div class="line">
                 <h3 class="text-center exec-header">Advisory Board</h3>

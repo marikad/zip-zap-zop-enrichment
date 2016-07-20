@@ -35,7 +35,7 @@
 </div>
 </div>
 
-<!-- <div class="form-container">
+<div class="form-container">
    <div class="contact-heading text-center">
       <h1>Contact</h1>
    </div>
@@ -76,7 +76,7 @@
       </form>
       </div>
    </div>
- -->
+
 
 
 
