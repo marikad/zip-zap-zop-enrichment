@@ -45,7 +45,7 @@
                    <h3 class="name">Maja Miletich</h3>
                    <h5 class="job-title">CEO, CO-Founder</h5>
                    <div class="description">
-                           <p>Maja has worked with children on many levels. Having a brother on the Autism Spectrum has given Maja an understanding of how powerful communication is for ALL children. Maja's education includes a B.A. in Child Development and she is also a graduate of The Second City where she stuided improv and sketch comedy.  Maja has worked for years as a teacher and behaviorist where she practiced emergent curriculum. Maja’s focus is on inclusive classrooms where curriculum is designed to allow children and young adults to feel comfortable expressing themselves in whichever way they feel most comfortable.</p>
+                           <p>Maja has worked with children on many levels. Having a brother on the Autism Spectrum has given Maja an understanding of how powerful communication is for ALL children. Maja's education includes a B.A. in Child Development and she is also a graduate of The Second City where she studied improv and sketch comedy. Maja has worked for years as a teacher and behaviorist where she practiced emergent curriculum. Maja’s focus is on inclusive classrooms where curriculum is designed to allow children and young adults to reach their highest potential in whichever way they feel most comfortable</p>
                    </div>
                 </div>
                       <hr>
