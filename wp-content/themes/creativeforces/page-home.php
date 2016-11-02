@@ -90,8 +90,8 @@ crucial part of a childs development</p>
 </div>
 </div>
 </section>
-<h3 class="text-center">We have partnered with Zip Zap Zop: Improv for Kids! Click <a class="click-here" href=" http://www.zipzapzopimprov.com/" target="_blank">here</a> to learn more</h3>
-<a href=" http://www.zipzapzopimprov.com/" target="_blank"><img class="center-block" src="/wp-content/themes/creativeforces/images/zip.jpeg" alt="" /></a>
+	<h3 class="text-center">Zip Zap Zop is a project of Social and Environmental Entrepreneurs (SEE), a registered 501(c)3.</h3>
+<a href=" http://www.zipzapzopimprov.com/" target="_blank"><img class="center-block" src="/wp-content/themes/creativeforces/images/partner.jpg" alt="" /></a>
 
     
     
