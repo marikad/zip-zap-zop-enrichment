@@ -27,6 +27,14 @@
 
    <h3 class="text-center">Support Our Students! Donations are Tax Deductable.</h3>
    <h3 class="text-center">Zip Zap Zop is a project of Social and Environmental Entrepreneurs (SEE), a registered 501(c)3.</h3>
+     <div class="text-center">
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="5YM5WAXW9NE2E">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
    <div class="row">
    <div class="col-md-6">
    <img class="center-block" src="/wp-content/themes/creativeforces/images/partner.jpg" alt="" />
@@ -36,14 +44,7 @@
  </div>
    
  </div>
-   <div class="text-center">
-   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="5YM5WAXW9NE2E">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</div>
+ 
 
 
 
