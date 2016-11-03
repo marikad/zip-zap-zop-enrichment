@@ -27,6 +27,8 @@
 
    <h3 class="text-center">Support Our Students! Donations are Tax Deductable.</h3>
    <h3 class="text-center">Zip Zap Zop is a project of Social and Environmental Entrepreneurs (SEE), a registered 501(c)3.</h3>
+   <img class="center-block" src="/wp-content/themes/creativeforces/images/partner.jpg" alt="" />
+   <img class="center-block" src="/wp-content/themes/creativeforces/images/creative.png" alt="" />
    <div class="text-center">
    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
