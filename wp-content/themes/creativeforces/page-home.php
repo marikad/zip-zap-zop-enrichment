@@ -62,6 +62,8 @@ crucial part of a childs development</p>
 <div class="space">
 <p class="mission"><strong>Mission</strong><br> Our mission is to empower students with and without special needs by creating inclusive learning opportunities.<br><br>
 
+<hr>
+
 <strong>Vision </strong><br>
 	<strong>Zip Zap Zop Enrichment</strong> provides creative writing and improvisation classes to students in California. <br><br>
 

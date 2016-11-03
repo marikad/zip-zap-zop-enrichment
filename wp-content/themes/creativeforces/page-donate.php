@@ -24,6 +24,9 @@
 
 
    <?php get_header(); ?>
+
+   <h3>Support Our Students! Donations are Tax Deductable.</h3>
+   <h3>Zip Zap Zop is a project of Social and Environmental Entrepreneurs (SEE), a registered 501(c)3.</h3>
    <div class="text-center">
    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
