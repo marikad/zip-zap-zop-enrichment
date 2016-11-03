@@ -40,7 +40,7 @@
    <img class="center-block" src="/wp-content/themes/creativeforces/images/partner.jpg" alt="" />
    </div>
     <div class="col-md-6">
-   <img class="center-block" src="/wp-content/themes/creativeforces/images/creative.png" alt="" />
+   <img class="center-block" src="/wp-content/themes/creativeforces/images/creative.jpg" alt="" />
  </div>
    
  </div>
