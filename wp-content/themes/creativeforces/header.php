@@ -12,6 +12,7 @@
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 <head profile="http://gmpg.org/xfn/11">
+<meta property="og:image" content="/wp-content/themes/creativeforces/images/creative.jpg" />
 
  
     <meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
