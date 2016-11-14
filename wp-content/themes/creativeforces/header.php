@@ -14,8 +14,6 @@
 <head profile="http://gmpg.org/xfn/11">
 <meta property="og:image" content="/wp-content/themes/creativeforces/images/creative.jpg" />
 <meta property="og:url" content="http://zipzapzopenrichment.com/" />
-<meta property="og:type" content="article" />
-<meta property="og:image" content="/wp-content/themes/creativeforces/images/creative.jpg" />
 
  
     <meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
