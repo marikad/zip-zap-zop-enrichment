@@ -27,6 +27,7 @@
 
    <h3 class="text-center">Support Our Students! Donations are Tax Deductable.</h3>
      <div class="text-center">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/mifxQMxbwkY" frameborder="0" allowfullscreen></iframe>
    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="5YM5WAXW9NE2E">
