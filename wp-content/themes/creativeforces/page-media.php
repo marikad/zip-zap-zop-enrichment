@@ -34,7 +34,7 @@
 
  </div>
 <div class="text-center">
-<div class="title-article"><h3 class="article-head">Check out the article that was written about us!</h3></div>
+<div class="title-article"><h3 class="article-head">"Click here to read this article that was written about us!</h3></div>
   </div>
   <div class="text-center">
    <img src="/wp-content/themes/creativeforces/images/la-parent.jpg" alt="" />
