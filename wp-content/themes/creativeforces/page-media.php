@@ -40,8 +40,6 @@
 
    <h3 class="text-center article-head"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids" target="_blank">Click here to read the article</a></h3> 
 
-  <hr>
-
 
   <hr>
 <h2 class="text-center">True Classroom Stories</h2>
