@@ -39,9 +39,15 @@
 </div>
 
    <h3 class="text-center article-head"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids" target="_blank">Click here to read the article</a></h3> 
+<<<<<<< HEAD
 
   <hr>
 
+=======
+
+  <hr>
+
+>>>>>>> 9912fc46645406f431d37fb35b36598b5d6ebfd5
 <h2 class="text-center">Classroom Games</h2>
 <div class="text-center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/o20xZMcQOBU" frameborder="0" allowfullscreen></iframe>
