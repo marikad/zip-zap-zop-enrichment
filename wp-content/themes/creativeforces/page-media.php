@@ -1,6 +1,4 @@
-  
 <?php
-
    /**
  * Template Name: Media
  *
@@ -10,18 +8,18 @@
  */
  ?>
 <head>
-	<meta charset="utf-8">
-	<title>Zip Zap Zop Enrichment | Media</title>
-	<link rel="stylesheet" type="text/css" href="/wp-content/themes/creativeforces/css/media.css">
+  <meta charset="utf-8">
+  <title>Zip Zap Zop Enrichment | Media</title>
+  <link rel="stylesheet" type="text/css" href="/wp-content/themes/creativeforces/css/media.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 </head>
 
    <?php get_header(); ?>
 
 <header>
-    	<?php while ( have_posts() ) : the_post() ?>
-			<?php the_content(); ?>
-		<?php endwhile; ?>
+      <?php while ( have_posts() ) : the_post() ?>
+      <?php the_content(); ?>
+    <?php endwhile; ?>
 
 </header>
 
@@ -40,9 +38,14 @@
    <img src="/wp-content/themes/creativeforces/images/la-parent.jpg" alt="" />
 </div>
 
-   <h3 class="text-center article-head"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids" target="_blank">Theater Improv Games are Fun Ideas For Kids</a></h3> 
+   <h3 class="text-center article-head"><a href="https://www.laparent.com/special-needs/zip-zap-zop-fun-ideas-for-kids" target="_blank">Click here to read the article</a></h3> 
 
-  
+  <hr>
+
+<h2 class="text-center">Classroom Games</h2>
+<div class="text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o20xZMcQOBU" frameborder="0" allowfullscreen></iframe>
+</div>
 
 
 <div class="container">
