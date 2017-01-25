@@ -138,7 +138,7 @@ class pm_eventposts_widget extends WP_Widget {
 				'numberposts' => $numOfPosts,
 				'order' => $postOrder,
 				'orderby' => 'meta_value',
-				'meta_key' => 'eventDate',
+				'meta_key' => 'pm_event_date_meta',
 				'post_type' => 'post_events',
 				'post_status' => 'publish',
 			);

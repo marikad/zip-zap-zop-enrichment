@@ -795,7 +795,7 @@ class PM_LN_Customizer {
 			),
 		));
 		
-		$wp_customize->add_setting( 'columnBorderImage', array(
+		/*$wp_customize->add_setting( 'columnBorderImage', array(
 			'sanitize_callback' => 'esc_url_raw'
 			)
 		);
@@ -811,7 +811,7 @@ class PM_LN_Customizer {
 				'priority' => 3,
 				) 
 			) 
-		);
+		);*/
 		
 		$wp_customize->add_setting( 'globalHeaderImage', array(
 			'sanitize_callback' => 'esc_url_raw'
@@ -999,57 +999,6 @@ class PM_LN_Customizer {
 			
 		}//end of foreach
 		
-		
-		
-		
-		/**** Feature Slider Options ****/
-		$wp_customize->add_section( 'featureSlider_options' , array(
-			'title'    => esc_attr__( 'Feature Slider Options', 'localization' ),
-			'priority' => 80,
-		));
-		
-		$PulseColors = array();
-		
-		$PulseColors[] = array(
-			'slug'=> 'featureSliderCaptionBG', 
-			'default' => '#141312',
-			'label' => esc_attr__('Caption Background color', 'localization'),
-		);
-		$PulseColors[] = array(
-			'slug'=> 'featureSliderDescriptionBG', 
-			'default' => '#FBF9F3',
-			'label' => esc_attr__('Description Background color', 'localization')
-		);
-		
-		$priority = 0;
-		
-		foreach( $PulseColors as $color ) {
-			
-			$priority = $priority + 10;
-			
-			// SETTINGS
-			$wp_customize->add_setting(
-				$color['slug'], array(
-					'default' => $color['default'],
-					'type' => 'option', 
-					'capability' => 'edit_theme_options',
-					'sanitize_callback' => 'esc_attr',
-				)
-			);
-			// CONTROLS
-			$wp_customize->add_control(
-				new WP_Customize_Color_Control(
-					$wp_customize,
-					$color['slug'], 
-					array(
-					'label' => $color['label'], 
-					'section' => 'featureSlider_options',
-					'settings' => $color['slug'],
-					'priority' => $priority,
-					)
-				)
-			);
-		}//end of foreach
 		
 		/**** Business Info ****/
 		

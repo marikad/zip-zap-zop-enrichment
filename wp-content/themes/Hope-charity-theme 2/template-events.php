@@ -45,7 +45,6 @@
 
 	$eventsPostOrder = get_theme_mod('eventsPostOrder', 'DESC');
 	$sortEventsbyEventDate = get_theme_mod('sortEventsbyEventDate', 'on');
-
 	
 	if($sortEventsbyEventDate === 'on') {
 				
@@ -53,7 +52,7 @@
 			'post_type' => 'post_events',
 			'post_status' => 'publish',
 			'orderby' => 'meta_value',
-			'meta_key' => 'eventDate',
+			'meta_key' => 'pm_event_date_meta',
 			'order' => $eventsPostOrder,
 			//'posts_per_page' => -1,
 			'posts_per_page' => -1,
