@@ -1,0 +1,834 @@
+/* BEGIN dynamic-css */
+/* Font-Styles - DO NOT EDIT OR REMOVE THESE VALUES */
+h1 {
+color: #ff0000;
+font-size: 30px;
+font-style: normal;
+font-variant: normal;
+font-weight: 100;
+}
+h2 {
+color: #474a4b;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+color: #00B7C2;
+font-family: Oswald;
+font-size: 28px;
+font-style: normal;
+font-variant: normal;
+font-weight: 100;
+line-height: 36px;
+text-transform: none;
+}
+h6 {
+
+}
+.sf-menu a {
+color: #ffffff;
+font-family: Oswald;
+font-size: 13px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+text-transform: uppercase;
+}
+.flex-caption h1 {
+color: #ffffff;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-variant: normal;
+font-weight: 100;
+}
+.flex-caption-decription {
+color: #ffffff;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+}
+.pm_slider_btn span {
+color: #424242;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+}
+.pm-call-to-action {
+color: #ffffff;
+font-family: Oswald;
+font-size: 60px;
+font-style: normal;
+font-variant: normal;
+font-weight: 100;
+}
+.pm_page_title {
+color: #ffffff;
+font-family: Roboto;
+font-size: 35px;
+font-style: normal;
+font-variant: normal;
+font-weight: 100;
+line-height: 40px;
+}
+#comments {
+color: #ffffff;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-variant: normal;
+font-weight: 100;
+line-height: 40px;
+}
+#respond h3 {
+color: #ffffff;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-variant: normal;
+font-weight: 100;
+line-height: 40px;
+}
+.pm_span_header h4, .pm_image_panel_header h4 {
+color: #ffffff;
+font-family: Oswald;
+font-size: 19px;
+font-style: normal;
+font-weight: 100;
+}
+h5 {
+color: #00B7C2;
+font-family: Oswald;
+font-size: 28px;
+font-style: normal;
+font-variant: normal;
+font-weight: 100;
+line-height: 36px;
+text-transform: none;
+}
+.widget_footer h6 {
+color: #ffffff;
+font-family: Oswald;
+font-size: 18px;
+font-style: normal;
+font-variant: normal;
+font-weight: 100;
+}
+p {
+color: #7a7a7a;
+font-family: Arial;
+font-size: 12px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+}
+.breadcrumbs li a, .woocommerce-breadcrumb li a {
+color: #ffffff;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-transform: uppercase;
+}
+.breadcrumbs li, .woocommerce-breadcrumb li {
+color: #efefef;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-transform: uppercase;
+}
+.button-small span, .button-small-theme span {
+color: #ffffff;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+line-height: 24px;
+}
+.button-medium span, .button-medium-theme span {
+color: #ffffff;
+font-size: 16px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-transform: none;
+}
+.button-large span, .button-large-theme span {
+color: #ffffff;
+font-size: 24px;
+font-style: normal;
+font-variant: normal;
+font-weight: 400;
+line-height: 28px;
+text-transform: none;
+}
+.cta_container p {
+color: #ffffff;
+font-family: Arial;
+font-size: 16px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-transform: none;
+}
+.pm_feature_container .container h5 {
+color: #ffffff;
+font-family: Oswald;
+font-size: 24px;
+font-style: normal;
+font-variant: normal;
+font-weight: 100;
+text-transform: none;
+}
+.pm_feature_container .container p {
+color: #ffffff;
+font-family: Arial;
+font-size: 13px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-transform: none;
+}
+.header_donate_btn .button-medium span, .button-medium-theme span {
+color: #ffffff;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-transform: none;
+}
+.pm_header_quote span {
+color: #ffffff;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-transform: none;
+}
+.pm-sidebar h6 {
+color: #00B7C2;
+font-family: Oswald;
+font-size: 20px;
+font-style: normal;
+font-variant: normal;
+font-weight: 100;
+text-transform: none;
+}
+.pm-sidebar p {
+color: #737373;
+font-family: Arial;
+font-size: 12px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-transform: none;
+}
+.footer p {
+color: #ffffff;
+font-family: Arial;
+font-size: 12px;
+font-weight: normal;
+text-transform: none;
+}
+#pm_marker_tooltip {
+color: #ffffff;
+font-family: Arial;
+font-size: 11px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+line-height: 18px;
+text-transform: none;
+}
+ul, ol {
+color: #4d4d4d;
+font-family: Arial;
+font-size: 12px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-transform: none;
+}
+a {
+color: #00A8B2;
+font-family: Arial;
+font-size: 12px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-transform: none;
+}
+.textwidget {
+color: #7a7a7a;
+font-family: Arial;
+font-size: 12px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+}
+.pm-event-info-ul-date li strong {
+color: #ACDB05;
+font-family: Oswald;
+font-size: 46px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-transform: uppercase;	
+}
+.pm-event-info-ul-date li p {
+color: #ACDB05;
+font-family: Oswald;
+font-size: 46px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-transform: uppercase;	
+}
+blockquote p {
+color: #ababab;
+font-family: Georgia;
+font-size: 20px;
+font-style: italic;
+font-variant: normal;
+font-weight: 300;
+line-height: 32px;
+}
+ol.commentlist li div.vcard cite.fn {
+color: #757575;
+font-family: Oswald;
+font-size: 18px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.accordion-heading .accordion-toggle {
+color: #7a7a7a;
+font-family: Oswald;
+font-size: 20px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+line-height: 36px;
+}
+.nav-tabs > li > a {
+color: #7a7a7a;
+font-family: Oswald;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.pm_event_single_post_countdown p {
+color: #ACDB05;
+font-family: Oswald;
+font-size: 60px;
+font-weight: 100;
+line-height: 30px;
+text-transform: uppercase;
+}
+.pm-events-widget-date p {
+color: #ACDB05;
+font-family: Oswald;
+font-size: 30px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+text-transform: uppercase;
+}
+.pm_event_single_post_countdown .pm_event_days_left {
+
+}
+.pm_header_slogan p {
+
+}
+#pm-footer-nav li a {
+color: #515151;
+font-family: Oswald;
+font-size: 13px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.pm_sponsors_title {
+color: #ffffff;
+font-family: Oswald;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.woocommerce-tabs .tabs li a {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.pm-checkout-tabs li a {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+#tab-description h2, #tab-additional_information h2, #pm-product-comments h2, .related.products h2 {
+color: #232323;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.woocommerce-billing-fields label {
+color: #000000;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+}
+.woocommerce-shipping-fields  label {
+color: #000000;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+}
+.comment-form-rating label, .comment-form-comment label {
+color: #000000;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+}
+#order_comments_field label {
+color: #000000;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+}
+.coupon label {
+color: #000000;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+}
+.pm-cart-count-text {
+color: #565656;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+#customer_login h2 {
+color: #565656;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.cart_totals h2 {
+color: #565656;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.quantity .qty {
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.product-price, .product-subtotal {
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.cart-subtotal, .shipping, .order-total {
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.woocommerce-billing-fields h3 {
+color: #232323;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+#ship-to-different-address, #order_review_heading {
+color: #232323;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.cart_item .product-name, .cart_item .product-quantity, .cart_item .product-total, .payment_box p, .woocommerce-info, .woocommerce-error li {
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.myaccount_user {
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.myaccount_address {
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.addresses .address address {
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.shop_table .product-name, .shop_table .product-total {
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.payment_methods li label {
+color: #000000;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+}
+#customer_login label {
+color: #000000;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+}
+.woocommerce-info a {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.lost_password a {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.myaccount_user a {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.cart-collaterals h2 a {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.product-name a {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.woocommerce-result-count {
+color: #828282;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.woocommerce-message {
+color: #383838;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.woocommerce-message a {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.edit {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.return-to-shop a {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.products .product h3 a {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.product_title {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.pm-product-meta-info-container .price {
+color: #606060;
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+}
+.pm-product-meta-info-container .price {
+color: #606060;
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+}
+.price .amount {
+color: #606060;
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+}
+.pm-already-in-cart a, .pm-already-in-cart a i, .woocommerce-review-link, .posted_in a, .tagged_as a {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.star-rating, .summary p, .stock, .sku_wrapper, .posted_in, .tagged_as, .pm-product-share-container p {
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.pm-add-to-cart-btn, .pm-product-view-details a {
+color: #00b7c2;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+#tab-description p, .shop_attributes, #pm-product-comments p {
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.single_add_to_cart_button, .pm-custom-button.remove {
+color: #ffffff;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.coupon .button, #place_order, .pm-cart-total-container input[type="submit"] {
+color: #ffffff;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.address .title h3 {
+color: #565656;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.pm-column-container .woocommerce h2, .pm-column-container .woocommerce h3 {
+color: #565656;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.woocommerce label {
+color: #000000;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 500;
+}
+.woocommerce input[type="submit"] {
+color: #ffffff;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.pm-column-container .woocommerce p {
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.order_details li {
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;
+}
+.customer_details dt, .customer_details dd {
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;	
+}
+#tab-description ol, #tab-description ul {
+color: #4f4f4f;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+}
+.pm-customer-details-title, .pm-billing-address-title, .pm-shipping-address-title {
+ color: #232323;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;   
+}
+.addresses .col-1 address p, .addresses .col-2 address p {
+ color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;   
+}
+.cart-empty{
+ color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;   
+}
+#pm-load-more {
+ color: #ffffff;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300;   
+}
+.login p, .lost_reset_password p {
+ color: #3a3a3a;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-variant: normal;
+font-weight: 300; 
+}
+/* END dynamic-css */
